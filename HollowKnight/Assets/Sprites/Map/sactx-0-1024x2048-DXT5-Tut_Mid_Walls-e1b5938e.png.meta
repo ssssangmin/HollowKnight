@@ -1,0 +1,365 @@
+fileFormatVersion: 2
+guid: 7ffaa1dc8e60bcd4093d8c75c3112b02
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 864
+        width: 315
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c2584b43f7c1b419550b5ae5f66dd5
+      internalID: -1195090067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 911
+        width: 281
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8c7fc7fca5aff45b188b07b3459498
+      internalID: 1078477772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_2
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 713
+        width: 266
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12397ab465817bf48b858d646dc27d30
+      internalID: -1495665139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 737
+        width: 208
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fb7b2704ab4d04da6504cddef8c393
+      internalID: 1773252458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 516
+        width: 375
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c67e67ab289224fa65f04a34f01e38
+      internalID: -1984084760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 372
+        width: 364
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6665c18b358ad834f965b5b57f40ed5c
+      internalID: 1088104313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_6
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 531
+        width: 198
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a664df627516e6e459dffa48a8e8ce6c
+      internalID: -1056576290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 478
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754ec42971ca9964abe66a4a145c2c08
+      internalID: -1338335809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 2
+        width: 446
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ac1bebb3d7bfd4ab7bc0e8c8259fb5
+      internalID: -1659552267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_9
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 313
+        width: 224
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15099fa337c7064fa0e38008d945a52
+      internalID: -1358855934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_10
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 3
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db397044cd5b4f34a9614277ee110fd9
+      internalID: -1647368143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_0: -1195090067
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_1: 1078477772
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_10: -1647368143
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_2: -1495665139
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_3: 1773252458
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_4: -1984084760
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_5: 1088104313
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_6: -1056576290
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_7: -1338335809
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_8: -1659552267
+      sactx-0-1024x2048-DXT5-Tut_Mid_Walls-e1b5938e_9: -1358855934
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

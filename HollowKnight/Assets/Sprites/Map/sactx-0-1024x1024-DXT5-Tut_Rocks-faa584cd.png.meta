@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: b26ab17f971c249488881757cfde1410
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_5
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 764
+        width: 306
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -153, y: 96.5}
+        - {x: -153, y: -35.5}
+        - {x: -37, y: -96.5}
+        - {x: 132, y: -96.5}
+        - {x: 153, y: -68.5}
+        - {x: 153, y: 96.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7bda5e61f19c447b174e30a08ceeba
+      internalID: -593401725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 317
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.5, y: 152}
+        - {x: -158.5, y: 126}
+        - {x: -158.5, y: -64}
+        - {x: -84.5, y: -152}
+        - {x: -12.5, y: -152}
+        - {x: 73.5, y: -103}
+        - {x: 158.5, y: -23}
+        - {x: 158.5, y: 108}
+        - {x: 72.5, y: 152}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0d97e1d440bdb42978d238edcbd4ae
+      internalID: 1741984724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 443
+        width: 254
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 82}
+        - {x: -127, y: 71}
+        - {x: -127, y: 47}
+        - {x: -94, y: -15}
+        - {x: -25, y: -82}
+        - {x: 127, y: -82}
+        - {x: 127, y: 82}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bda600426b1c0f4fb1998b4d229df2b
+      internalID: 1760889029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 463
+        height: 533
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 266.5}
+        - {x: -19.5, y: 266.5}
+        - {x: -134.5, y: 202.5}
+        - {x: -231.5, y: 30.5}
+        - {x: -231.5, y: -210.5}
+        - {x: -196.5, y: -249.5}
+        - {x: -137.5, y: -266.5}
+        - {x: 180.5, y: -266.5}
+        - {x: 231.5, y: -206.5}
+        - {x: 231.5, y: -61.5}
+        - {x: 161.5, y: 168.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7543175c8ba59394fa21c531c3ff89c4
+      internalID: -1358094332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 190
+        width: 250
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82, y: 109}
+        - {x: -125, y: 23}
+        - {x: -112, y: -91}
+        - {x: -73, y: -109}
+        - {x: 57, y: -109}
+        - {x: 125, y: -92}
+        - {x: 125, y: 22}
+        - {x: 60, y: 109}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755ef4cd79255f04cb034bdd572743bc
+      internalID: -372182203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_0: -1776699641
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_1: -335402633
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_10: -1358094332
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_11: -372182203
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_2: -1420998427
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_3: 1540131546
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_4: 977149410
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_5: -593401725
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_6: 1741984724
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_7: -872895415
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_8: 1760889029
+      sactx-0-1024x1024-DXT5-Tut_Rocks-faa584cd_9: -1324217818
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
