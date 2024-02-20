@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,7 +103,320 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: 2}
+        - {x: 31.104607, y: 91}
+        - {x: -32.298668, y: 91}
+        - {x: -48.5, y: 20}
+        - {x: -48.5, y: -164}
+        - {x: 48.5, y: -164}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9712783bbac60e47bb7f1199245d820
+      internalID: -397487590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2345dae41569c04ba57c0b3037514d2
+      internalID: -1280033420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 327
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8184efdc74d1241897a356d51f6517
+      internalID: -1570253730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 327
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c65253c64ecce94289631cf3d458e12
+      internalID: -564060500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 252
+        width: 75
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0eb2a302ec1484db95b4022b6e92e7
+      internalID: 113996535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 102
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 130.5}
+        - {x: -51, y: 78.5}
+        - {x: -51, y: -130.5}
+        - {x: 51, y: -130.5}
+        - {x: 51, y: 44.5}
+        - {x: 9, y: 130.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52950697a1594d04180529a73c76d765
+      internalID: -255648027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_6
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 236
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1423c37894a894fb3b51cfbd4a437a
+      internalID: -1280926241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_7
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 246
+        width: 39
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282aff0912f12fd4b9adcc27818d6009
+      internalID: 1297767948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_9
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 172
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305e10112d4aaa24483fba2fff7795ee
+      internalID: -279769330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 89
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 109.5}
+        - {x: -17.5, y: 65.5}
+        - {x: -44.5, y: -5.5}
+        - {x: -44.5, y: -109.5}
+        - {x: 23.5, y: -109.5}
+        - {x: 14.5, y: -20.5}
+        - {x: 44.5, y: 109.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6c3715dc34a454f87be5896373b2f6
+      internalID: -1171521753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_13
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 78
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26099886ff5727048800072dee8dbd81
+      internalID: 2115270363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 116
+        width: 73
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbb3f0126050474aa8af190d32fa4f3
+      internalID: 1006177351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_16
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2
+        width: 72
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94958ac4a2b8fe44fbfb561ca7f9c20d
+      internalID: 740579270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_17
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 72
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54964c6f28e8e854aaef32153f2a817b
+      internalID: -49303718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +427,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_0: -397487590
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_1: -1280033420
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_10: 1922319437
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_11: 990268185
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_12: -1171521753
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_13: 2115270363
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_14: 1128020620
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_15: 1006177351
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_16: 740579270
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_17: -49303718
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_2: -1570253730
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_3: -564060500
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_4: 113996535
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_5: -255648027
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_6: -1280926241
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_7: 1297767948
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_8: -1191634630
+      sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_9: -279769330
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

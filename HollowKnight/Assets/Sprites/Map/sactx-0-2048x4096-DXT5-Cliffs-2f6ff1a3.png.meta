@@ -115,7 +115,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -104, y: 26}
+        - {x: -104, y: -14}
+        - {x: -84, y: -26}
+        - {x: 82, y: -26}
+        - {x: 104, y: -22}
+        - {x: 104, y: 26}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -766,7 +772,16 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 38, y: 72}
+        - {x: -30, y: 72}
+        - {x: -76, y: 24}
+        - {x: -76, y: -38}
+        - {x: -64, y: -56}
+        - {x: -18, y: -72}
+        - {x: 38, y: -72}
+        - {x: 76, y: -32}
+        - {x: 76, y: 44}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1219,10 +1234,9 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -85, y: 233}
-        - {x: -85, y: -79}
-        - {x: -58, y: -121}
-        - {x: -24, y: -212}
-        - {x: -9, y: -233}
+        - {x: -85, y: -59}
+        - {x: -42, y: -151}
+        - {x: -14, y: -233}
         - {x: 43, y: -233}
         - {x: 85, y: -205}
         - {x: 85, y: 181}
@@ -1373,7 +1387,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 65, y: 173.5}
+        - {x: -94, y: 173.5}
+        - {x: -169, y: 69.5}
+        - {x: -169, y: -46.5}
+        - {x: -126, y: -151.5}
+        - {x: -37, y: -173.5}
+        - {x: 109, y: -173.5}
+        - {x: 169, y: -80}
+        - {x: 169, y: 22.5}
+        - {x: 129, y: 100.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1531,7 +1555,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 57.45044, y: 255}
+        - {x: -25, y: 255}
+        - {x: -145, y: 165}
+        - {x: -145, y: -255}
+        - {x: 145, y: -255}
+        - {x: 145, y: -63}
+        - {x: 122.35632, y: 12.680908}
+        - {x: 117, y: 76}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1552,7 +1584,15 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 1, y: 111}
+        - {x: -54, y: 27}
+        - {x: -101, y: -25}
+        - {x: -101, y: -73}
+        - {x: -67, y: -111}
+        - {x: 53, y: -111}
+        - {x: 101, y: -87}
+        - {x: 101, y: 111}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1862,6 +1902,56 @@ TextureImporter:
       bones: []
       spriteID: 270dedf0be94a5441a2ef27f564fbd57
       internalID: -1203245191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x4096-DXT5-Cliffs-2f6ff1a3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2866
+        width: 242
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530cd7158c670724c81f35fa5583b992
+      internalID: 1488559582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x4096-DXT5-Cliffs-2f6ff1a3_2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 2063
+        width: 170
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 136.5}
+        - {x: -85, y: 80.5}
+        - {x: -85, y: -64}
+        - {x: -19, y: -136.5}
+        - {x: 63, y: -136}
+        - {x: 85, y: -112}
+        - {x: 85, y: 76}
+        - {x: 35, y: 136.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9706d8277e2fe47baddae1ea228a36
+      internalID: 915265269
       vertices: []
       indices: 
       edges: []
