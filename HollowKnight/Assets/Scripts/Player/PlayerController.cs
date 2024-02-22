@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Scripting.APIUpdating;
 
-// 12/31일 수정사항
-// 착지 모션 수정
-
 #region 1
 public class PlayerController : MonoBehaviour
 {
