@@ -110,18 +110,18 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 97
-        height: 328
+        width: 95
+        height: 254
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 48.5, y: 2}
-        - {x: 31.104607, y: 91}
-        - {x: -32.298668, y: 91}
+        - {x: 26.5, y: 127}
+        - {x: -34.5, y: 127}
         - {x: -48.5, y: 20}
-        - {x: -48.5, y: -164}
-        - {x: 48.5, y: -164}
+        - {x: -47.5, y: -127}
+        - {x: 47.5, y: -127}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -413,6 +413,27 @@ TextureImporter:
       bones: []
       spriteID: 54964c6f28e8e854aaef32153f2a817b
       internalID: -49303718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-512x512-DXT5-Tut_Ornaments-ed62f185_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2dc48df75bcecc46b7b8aaccbc6f2d8
+      internalID: -1191634630
       vertices: []
       indices: 
       edges: []
