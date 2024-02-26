@@ -255,6 +255,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1292501232, guid: 5587e6a8b7e3a904c985ee64ff03da27, type: 3}
+      propertyPath: focusDelay
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6069237509701259825, guid: 5587e6a8b7e3a904c985ee64ff03da27, type: 3}
       propertyPath: m_Name
       value: Player

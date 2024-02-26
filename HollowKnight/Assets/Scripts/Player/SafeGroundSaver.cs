@@ -12,6 +12,8 @@ public class SafeGroundSaver : MonoBehaviour
 
     private GroundCheck groundCheck;
 
+    private Animator anim;
+
     private void Start()
     {
         safeGroundCoroutine = StartCoroutine(SaveGroundLocation());
@@ -20,6 +22,8 @@ public class SafeGroundSaver : MonoBehaviour
         safeGroundLocation = transform.position;
 
         groundCheck = GetComponent<GroundCheck>();
+
+        anim = GetComponent<Animator>();
     }
 
     private IEnumerator SaveGroundLocation()
@@ -44,6 +48,7 @@ public class SafeGroundSaver : MonoBehaviour
 
     public void WarpPlayerToSafeGround()
     {
+        anim.Play("Idle");
         transform.position = safeGroundLocation;
     }
 }

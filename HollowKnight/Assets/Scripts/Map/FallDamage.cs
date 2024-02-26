@@ -7,9 +7,13 @@ public class FallDamage : MonoBehaviour
     private PlayerHealth HP;
     private SafeGroundSaver groundsaver;
 
+    private Animator anim;
+
     private void Start()
     {
         groundsaver = GameObject.FindGameObjectWithTag("Player").GetComponent<SafeGroundSaver>();
+
+        anim = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -20,6 +24,8 @@ public class FallDamage : MonoBehaviour
 
             // 플레이어에게 1의 데미지를 준다
             HP.Damage(1f);
+
+            anim.SetTrigger("Damaged");
 
             // 플레이어를 안전지대로 이동시킴
             groundsaver.WarpPlayerToSafeGround();
