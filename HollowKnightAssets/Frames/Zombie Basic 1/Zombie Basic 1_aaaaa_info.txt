@@ -1,0 +1,47 @@
+version: 2
+type: collection
+name: Zombie Basic 1
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 40
+attack0000	Zombie Basic 1_attack0000.png
+attack0001	Zombie Basic 1_attack0001.png
+attack0002	Zombie Basic 1_attack0002.png
+attack0003	Zombie Basic 1_attack0003.png
+attack0004	Zombie Basic 1_attack0004.png
+attack0005	Zombie Basic 1_attack0005.png
+death0000	Zombie Basic 1_death0000.png
+death0001	Zombie Basic 1_death0001.png
+death0002	Zombie Basic 1_death0002.png
+death0003	Zombie Basic 1_death0003.png
+death0004	Zombie Basic 1_death0004.png
+death0005	Zombie Basic 1_death0005.png
+death0006	Zombie Basic 1_death0006.png
+death0007	Zombie Basic 1_death0007.png
+death0008	Zombie Basic 1_death0008.png
+idle0000	Zombie Basic 1_idle0000.png
+idle0001	Zombie Basic 1_idle0001.png
+idle0002	Zombie Basic 1_idle0002.png
+idle0003	Zombie Basic 1_idle0003.png
+idle0004	Zombie Basic 1_idle0004.png
+idle0005	Zombie Basic 1_idle0005.png
+turn0000	Zombie Basic 1_turn0000.png
+turn0001	Zombie Basic 1_turn0001.png
+walk0000	Zombie Basic 1_walk0000.png
+walk0001	Zombie Basic 1_walk0001.png
+walk0002	Zombie Basic 1_walk0002.png
+walk0003	Zombie Basic 1_walk0003.png
+walk0004	Zombie Basic 1_walk0004.png
+walk0005	Zombie Basic 1_walk0005.png
+walk0006	Zombie Basic 1_walk0006.png
+z01_attack_v02000	Zombie Basic 1_z01_attack_v02000.png
+z01_attack_v02001	Zombie Basic 1_z01_attack_v02001.png
+z01_attack_v02002	Zombie Basic 1_z01_attack_v02002.png
+z01_attack_v02003	Zombie Basic 1_z01_attack_v02003.png
+z01_attack_v02004	Zombie Basic 1_z01_attack_v02004.png
+z01_attack_v02005	Zombie Basic 1_z01_attack_v02005.png
+z01_attack_v02006	Zombie Basic 1_z01_attack_v02006.png
+z01_attack_v02007	Zombie Basic 1_z01_attack_v02007.png
+z01_attack_v02008	Zombie Basic 1_z01_attack_v02008.png
+z01_attack_v02009	Zombie Basic 1_z01_attack_v02009.png

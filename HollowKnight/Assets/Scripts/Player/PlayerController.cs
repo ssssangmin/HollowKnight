@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rbody;          // RigidBody 2D 컴포넌트
     private Collider2D coll;
 
-    private Animator animator;
+    private Animator anim;
 
     private RaycastHit2D rayhit;
 
@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         rbody = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
 
         groundLayer = LayerMask.GetMask("Ground");
@@ -53,20 +53,20 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotate);
-            animator.SetBool("HorizontalKeyDown", true);
-            animator.SetBool("HorizontalKeyUp", false);
+            anim.SetBool("HorizontalKeyDown", true);
+            anim.SetBool("HorizontalKeyUp", false);
         }
         else if (moveInput < 0)
         {
             Vector3 rotate = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotate);
-            animator.SetBool("HorizontalKeyDown", true);
-            animator.SetBool("HorizontalKeyUp", false);
+            anim.SetBool("HorizontalKeyDown", true);
+            anim.SetBool("HorizontalKeyUp", false);
         }
 
         if (Input.GetButtonUp("Horizontal") && moveInput == 0.0f)
         {
-            animator.SetBool("HorizontalKeyDown", false);
+            anim.SetBool("HorizontalKeyDown", false);
             RunToIdle();
         }
         rbody.velocity = new Vector2(moveInput * speed, rbody.velocity.y);
@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
     {
         if (backIdle)
         {
-            animator.SetBool("HorizontalKeyUp", true);
+            anim.SetBool("HorizontalKeyUp", true);
             backIdle = false;
         }
     }
@@ -91,12 +91,12 @@ public class PlayerController : MonoBehaviour
         // 점프를 입력했을 때
         if (UserInput.instance.controls.Jumping.Jump.WasPressedThisFrame() && isGrounded())
         {
-            animator.SetTrigger("Jump");
+            anim.SetTrigger("Jump");
             isJumping = true;
             jumpTimeCounter = jumpTime;
             rbody.velocity = new Vector2(rbody.velocity.x, jump);
         }
-        // 유지중
+        // 유지중 // 점프를 누르고 있는동안에 추락모션이 계속 유지되므로 여기서 코드 수정필요.
         else if (UserInput.instance.controls.Jumping.Jump.IsPressed())
         {
             // 점프를 누르고 있는 시간 계산
@@ -114,20 +114,20 @@ public class PlayerController : MonoBehaviour
             else
             {
                 // 추락 애니메이션 재생
-                animator.SetTrigger("JumpToFallIdle");
+                anim.SetTrigger("JumpToFallIdle");
                 isJumping = false;
             }
         }
         // 점프 버튼에서 손 떼었을 때
         if (UserInput.instance.controls.Jumping.Jump.WasReleasedThisFrame())
         {
-            animator.SetTrigger("JumpToFallIdle");
+            anim.SetTrigger("JumpToFallIdle");
             isJumping = false;
             isFalling = true;
         }
         if (!isJumping && CheckForLand())
         {
-            animator.SetTrigger("FallToLand");
+            anim.SetTrigger("FallToLand");
             resetTriggerCoroutine = StartCoroutine(Reset());
         }
     }
@@ -174,6 +174,6 @@ public class PlayerController : MonoBehaviour
     private IEnumerator Reset()
     {
         yield return null;
-        animator.ResetTrigger("JumpToFallIdle");
+        anim.ResetTrigger("JumpToFallIdle");
     }
 }

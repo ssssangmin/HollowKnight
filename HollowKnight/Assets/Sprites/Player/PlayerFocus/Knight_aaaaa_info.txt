@@ -1,0 +1,14 @@
+version: 2
+type: animation
+name: Focus
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 7
+0	Focus_focus_v020000_000.png
+1	Focus_focus_v020001_001.png
+2	Focus_focus_v020002_002.png
+3	Focus_focus_v020003_003.png
+4	Focus_focus_v020004_004.png
+5	Focus_focus_v020005_005.png
+6	Focus_focus_v020006_006.png

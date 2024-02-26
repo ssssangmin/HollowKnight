@@ -1,0 +1,10 @@
+version: 2
+type: animation
+name: Sword
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 3
+0	Sword_strike_effect0000_000.png
+1	Sword_strike_effect0001_001.png
+2	Sword_strike_effect0002_002.png

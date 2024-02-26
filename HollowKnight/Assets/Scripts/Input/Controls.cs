@@ -122,6 +122,62 @@ public partial class @Controls: IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Attack"",
+            ""id"": ""89b7cb82-8a82-4dd7-aff5-962f09cdb869"",
+            ""actions"": [
+                {
+                    ""name"": ""Attack"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""de945238-e2a7-4540-a120-a335096acbc7"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""ba75259e-b159-4a42-af6c-f76e730b22e0"",
+                    ""path"": ""<Keyboard>/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""Attack"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Focus"",
+            ""id"": ""bd7d92f7-5c05-42b6-96dc-541f3cd29efa"",
+            ""actions"": [
+                {
+                    ""name"": ""Focus"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""b3ecf8a8-0686-4a4c-b29c-913f2bf286e5"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""c0a2b2fd-8cc6-42bc-b3a1-141a411e596c"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Focus"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
         }
     ],
     ""controlSchemes"": [
@@ -138,6 +194,12 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         // Jumping
         m_Jumping = asset.FindActionMap("Jumping", throwIfNotFound: true);
         m_Jumping_Jump = m_Jumping.FindAction("Jump", throwIfNotFound: true);
+        // Attack
+        m_Attack = asset.FindActionMap("Attack", throwIfNotFound: true);
+        m_Attack_Attack = m_Attack.FindAction("Attack", throwIfNotFound: true);
+        // Focus
+        m_Focus = asset.FindActionMap("Focus", throwIfNotFound: true);
+        m_Focus_Focus = m_Focus.FindAction("Focus", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -287,6 +349,98 @@ public partial class @Controls: IInputActionCollection2, IDisposable
         }
     }
     public JumpingActions @Jumping => new JumpingActions(this);
+
+    // Attack
+    private readonly InputActionMap m_Attack;
+    private List<IAttackActions> m_AttackActionsCallbackInterfaces = new List<IAttackActions>();
+    private readonly InputAction m_Attack_Attack;
+    public struct AttackActions
+    {
+        private @Controls m_Wrapper;
+        public AttackActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Attack => m_Wrapper.m_Attack_Attack;
+        public InputActionMap Get() { return m_Wrapper.m_Attack; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(AttackActions set) { return set.Get(); }
+        public void AddCallbacks(IAttackActions instance)
+        {
+            if (instance == null || m_Wrapper.m_AttackActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_AttackActionsCallbackInterfaces.Add(instance);
+            @Attack.started += instance.OnAttack;
+            @Attack.performed += instance.OnAttack;
+            @Attack.canceled += instance.OnAttack;
+        }
+
+        private void UnregisterCallbacks(IAttackActions instance)
+        {
+            @Attack.started -= instance.OnAttack;
+            @Attack.performed -= instance.OnAttack;
+            @Attack.canceled -= instance.OnAttack;
+        }
+
+        public void RemoveCallbacks(IAttackActions instance)
+        {
+            if (m_Wrapper.m_AttackActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IAttackActions instance)
+        {
+            foreach (var item in m_Wrapper.m_AttackActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_AttackActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public AttackActions @Attack => new AttackActions(this);
+
+    // Focus
+    private readonly InputActionMap m_Focus;
+    private List<IFocusActions> m_FocusActionsCallbackInterfaces = new List<IFocusActions>();
+    private readonly InputAction m_Focus_Focus;
+    public struct FocusActions
+    {
+        private @Controls m_Wrapper;
+        public FocusActions(@Controls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Focus => m_Wrapper.m_Focus_Focus;
+        public InputActionMap Get() { return m_Wrapper.m_Focus; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
+        public bool enabled => Get().enabled;
+        public static implicit operator InputActionMap(FocusActions set) { return set.Get(); }
+        public void AddCallbacks(IFocusActions instance)
+        {
+            if (instance == null || m_Wrapper.m_FocusActionsCallbackInterfaces.Contains(instance)) return;
+            m_Wrapper.m_FocusActionsCallbackInterfaces.Add(instance);
+            @Focus.started += instance.OnFocus;
+            @Focus.performed += instance.OnFocus;
+            @Focus.canceled += instance.OnFocus;
+        }
+
+        private void UnregisterCallbacks(IFocusActions instance)
+        {
+            @Focus.started -= instance.OnFocus;
+            @Focus.performed -= instance.OnFocus;
+            @Focus.canceled -= instance.OnFocus;
+        }
+
+        public void RemoveCallbacks(IFocusActions instance)
+        {
+            if (m_Wrapper.m_FocusActionsCallbackInterfaces.Remove(instance))
+                UnregisterCallbacks(instance);
+        }
+
+        public void SetCallbacks(IFocusActions instance)
+        {
+            foreach (var item in m_Wrapper.m_FocusActionsCallbackInterfaces)
+                UnregisterCallbacks(item);
+            m_Wrapper.m_FocusActionsCallbackInterfaces.Clear();
+            AddCallbacks(instance);
+        }
+    }
+    public FocusActions @Focus => new FocusActions(this);
     private int m_KeyboardSchemeIndex = -1;
     public InputControlScheme KeyboardScheme
     {
@@ -303,5 +457,13 @@ public partial class @Controls: IInputActionCollection2, IDisposable
     public interface IJumpingActions
     {
         void OnJump(InputAction.CallbackContext context);
+    }
+    public interface IAttackActions
+    {
+        void OnAttack(InputAction.CallbackContext context);
+    }
+    public interface IFocusActions
+    {
+        void OnFocus(InputAction.CallbackContext context);
     }
 }
