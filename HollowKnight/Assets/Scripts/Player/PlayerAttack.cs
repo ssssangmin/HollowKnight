@@ -22,9 +22,13 @@ public class PlayerAttack : MonoBehaviour
 
     private float verticalInput;
 
+    private Animator slashAnim;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
+
+        slashAnim = GameObject.FindGameObjectWithTag("Slash").GetComponent<Animator>();
 
         // 바로 공격이 가능하도록 설정
         attackTimer = attackDelay;
@@ -46,10 +50,14 @@ public class PlayerAttack : MonoBehaviour
             if (rand == 0)
             {
                 anim.SetTrigger("Attack");
+
+                slashAnim.SetTrigger("Attack");
             }
             else
             {
                 anim.SetTrigger("Attack2");
+
+                slashAnim.SetTrigger("Attack2");
             }
 
         }

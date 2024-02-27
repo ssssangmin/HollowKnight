@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\Enemy\Zombie Basic 1\ZombieHealth.cs" />
     <Compile Include="Assets\Scripts\Input\UserInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Player\GroundSavePoint.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Interface\IDamageable.cs" />
     <Compile Include="Assets\Scripts\Player\GroundCheck.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\Scripts\Map\FallDamage.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Input\Controls.cs" />
-    <Compile Include="Assets\Scripts\Player\GroundSavePoint.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Player\PlayerEffects\SlashEffects\Slash\Knight_aaaaa_info.txt" />

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1222814328}
   m_Layer: 0
   m_Name: AttackTransfom
-  m_TagString: Untagged
+  m_TagString: Slash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -308,6 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ce1136e076140574b9b6ed531807c68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  focusDelay: 1
 --- !u!114 &1292501233
 MonoBehaviour:
   m_ObjectHideFlags: 0

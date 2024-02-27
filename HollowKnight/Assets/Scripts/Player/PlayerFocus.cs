@@ -24,6 +24,8 @@ public class PlayerFocus : MonoBehaviour
     {
         if (UserInput.instance.controls.Focus.Focus.WasPressedThisFrame() && !isholding)
         {
+            PlayerController.instance.canMove = false;
+
             focusTimer += Time.deltaTime;
 
             anim.SetTrigger("FocusOn");
@@ -39,6 +41,7 @@ public class PlayerFocus : MonoBehaviour
 
         if (UserInput.instance.controls.Focus.Focus.WasReleasedThisFrame())
         {
+            PlayerController.instance.canMove = true;
             isholding = false;
             anim.SetTrigger("FocusOff");
             focusTimer = 0.0f;

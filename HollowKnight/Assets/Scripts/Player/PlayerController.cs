@@ -5,6 +5,8 @@ using UnityEngine.Scripting.APIUpdating;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
+
     [SerializeField] private float speed = 3.0f;  // 이동속도
 
     [SerializeField] private float jumpTime = 0.5f;
@@ -26,6 +28,7 @@ public class PlayerController : MonoBehaviour
     private bool isFalling;
     private float jumpTimeCounter;
     private bool backIdle = false;
+    public bool canMove;
 
     private Coroutine resetTriggerCoroutine;
 
@@ -36,6 +39,9 @@ public class PlayerController : MonoBehaviour
         coll = GetComponent<Collider2D>();
 
         groundLayer = LayerMask.GetMask("Ground");
+
+        instance = this;
+        canMove = true;
     }
 
     private void Update()
@@ -46,30 +52,33 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        // UserInput 클래스 인스턴스에서 좌우 이동 값 받아오기.
-        moveInput = UserInput.instance.moveInput.x;
+        if (canMove)
+        {
+            // UserInput 클래스 인스턴스에서 좌우 이동 값 받아오기.
+            moveInput = UserInput.instance.moveInput.x;
 
-        if (moveInput > 0)
-        {
-            Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
-            transform.rotation = Quaternion.Euler(rotate);
-            anim.SetBool("HorizontalKeyDown", true);
-            anim.SetBool("HorizontalKeyUp", false);
-        }
-        else if (moveInput < 0)
-        {
-            Vector3 rotate = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
-            transform.rotation = Quaternion.Euler(rotate);
-            anim.SetBool("HorizontalKeyDown", true);
-            anim.SetBool("HorizontalKeyUp", false);
-        }
+            if (moveInput > 0)
+            {
+                Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
+                transform.rotation = Quaternion.Euler(rotate);
+                anim.SetBool("HorizontalKeyDown", true);
+                anim.SetBool("HorizontalKeyUp", false);
+            }
+            else if (moveInput < 0)
+            {
+                Vector3 rotate = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
+                transform.rotation = Quaternion.Euler(rotate);
+                anim.SetBool("HorizontalKeyDown", true);
+                anim.SetBool("HorizontalKeyUp", false);
+            }
 
-        if (Input.GetButtonUp("Horizontal") && moveInput == 0.0f)
-        {
-            anim.SetBool("HorizontalKeyDown", false);
-            RunToIdle();
+            if (Input.GetButtonUp("Horizontal") && moveInput == 0.0f)
+            {
+                anim.SetBool("HorizontalKeyDown", false);
+                RunToIdle();
+            }
+            rbody.velocity = new Vector2(moveInput * speed, rbody.velocity.y);
         }
-        rbody.velocity = new Vector2(moveInput * speed, rbody.velocity.y);
     }
 
     private void FixedUpdate()
@@ -88,47 +97,50 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        // 점프를 입력했을 때
-        if (UserInput.instance.controls.Jumping.Jump.WasPressedThisFrame() && isGrounded())
+        if (canMove)
         {
-            anim.SetTrigger("Jump");
-            isJumping = true;
-            jumpTimeCounter = jumpTime;
-            rbody.velocity = new Vector2(rbody.velocity.x, jump);
-        }
-        // 유지중 // 점프를 누르고 있는동안에 추락모션이 계속 유지되므로 여기서 코드 수정필요.
-        else if (UserInput.instance.controls.Jumping.Jump.IsPressed())
-        {
-            // 점프를 누르고 있는 시간 계산
-            if (jumpTimeCounter > 0 && isJumping)
+            // 점프를 입력했을 때
+            if (UserInput.instance.controls.Jumping.Jump.WasPressedThisFrame() && isGrounded())
             {
+                anim.SetTrigger("Jump");
+                isJumping = true;
+                jumpTimeCounter = jumpTime;
                 rbody.velocity = new Vector2(rbody.velocity.x, jump);
-                jumpTimeCounter -= Time.deltaTime;
             }
-            else if (jumpTimeCounter == 0)
+            // 유지중 // 점프를 누르고 있는동안에 추락모션이 계속 유지되므로 여기서 코드 수정필요.
+            else if (UserInput.instance.controls.Jumping.Jump.IsPressed())
             {
-                isFalling = true;
-                isJumping = false;
+                // 점프를 누르고 있는 시간 계산
+                if (jumpTimeCounter > 0 && isJumping)
+                {
+                    rbody.velocity = new Vector2(rbody.velocity.x, jump);
+                    jumpTimeCounter -= Time.deltaTime;
+                }
+                else if (jumpTimeCounter == 0)
+                {
+                    isFalling = true;
+                    isJumping = false;
+                }
+                // 버튼을 누르고 있을 수 있는 최대 시간이 지나면
+                else
+                {
+                    // 추락 애니메이션 재생
+                    anim.SetTrigger("JumpToFallIdle");
+                    isJumping = false;
+                }
             }
-            // 버튼을 누르고 있을 수 있는 최대 시간이 지나면
-            else
+            // 점프 버튼에서 손 떼었을 때
+            if (UserInput.instance.controls.Jumping.Jump.WasReleasedThisFrame())
             {
-                // 추락 애니메이션 재생
                 anim.SetTrigger("JumpToFallIdle");
                 isJumping = false;
+                isFalling = true;
             }
-        }
-        // 점프 버튼에서 손 떼었을 때
-        if (UserInput.instance.controls.Jumping.Jump.WasReleasedThisFrame())
-        {
-            anim.SetTrigger("JumpToFallIdle");
-            isJumping = false;
-            isFalling = true;
-        }
-        if (!isJumping && CheckForLand())
-        {
-            anim.SetTrigger("FallToLand");
-            resetTriggerCoroutine = StartCoroutine(Reset());
+            if (!isJumping && CheckForLand())
+            {
+                anim.SetTrigger("FallToLand");
+                resetTriggerCoroutine = StartCoroutine(Reset());
+            }
         }
     }
 
