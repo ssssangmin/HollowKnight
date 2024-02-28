@@ -79,6 +79,7 @@ public class PlayerController : MonoBehaviour
             }
             rbody.velocity = new Vector2(moveInput * speed, rbody.velocity.y);
         }
+        anim.ResetTrigger("FallToLand");
     }
 
     private void FixedUpdate()
@@ -136,6 +137,7 @@ public class PlayerController : MonoBehaviour
                 isJumping = false;
                 isFalling = true;
             }
+            // 점프 공격 후 falltoland 트리거가 자꾸 켜짐. 수정필요.
             if (!isJumping && CheckForLand())
             {
                 anim.SetTrigger("FallToLand");

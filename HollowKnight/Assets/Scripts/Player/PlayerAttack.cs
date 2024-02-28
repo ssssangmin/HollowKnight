@@ -70,6 +70,8 @@ public class PlayerAttack : MonoBehaviour
                 attackTimer = 0.0f;
 
                 anim.SetTrigger("UpAttack");
+
+                slashAnim.SetTrigger("UpSlash");
             }
         }
 
@@ -81,6 +83,8 @@ public class PlayerAttack : MonoBehaviour
                 attackTimer = 0.0f;
 
                 anim.SetTrigger("DownAttack");
+
+                slashAnim.SetTrigger("DownSlash");
             }
         }
 

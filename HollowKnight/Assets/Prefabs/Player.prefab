@@ -240,6 +240,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  canMove: 1
 --- !u!50 &3446248053589244335
 Rigidbody2D:
   serializedVersion: 4
