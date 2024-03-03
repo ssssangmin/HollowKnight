@@ -1,0 +1,14 @@
+version: 2
+type: animation
+name: Fly
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 7
+0	Fly_fly0001_000.png
+1	Fly_fly0002_001.png
+2	Fly_fly0003_002.png
+3	Fly_fly0004_003.png
+4	Fly_fly0005_004.png
+5	Fly_fly0006_005.png
+6	Fly_fly0007_006.png

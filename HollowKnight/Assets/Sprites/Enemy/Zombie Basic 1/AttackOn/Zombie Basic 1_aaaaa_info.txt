@@ -1,0 +1,15 @@
+version: 2
+type: animation
+name: Attack Lunge
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 8
+0	Attack Lunge_z01_attack_v02005_000.png
+1	Attack Lunge_z01_attack_v02006_001.png
+2	Attack Lunge_z01_attack_v02007_002.png
+3	Attack Lunge_z01_attack_v02008_003.png
+4	Attack Lunge_z01_attack_v02005_004.png
+5	Attack Lunge_z01_attack_v02006_005.png
+6	Attack Lunge_z01_attack_v02007_006.png
+7	Attack Lunge_z01_attack_v02008_007.png

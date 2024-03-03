@@ -1,0 +1,14 @@
+version: 2
+type: animation
+name: Walk
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 7
+0	Walk_walk0000_000.png
+1	Walk_walk0001_001.png
+2	Walk_walk0002_002.png
+3	Walk_walk0003_003.png
+4	Walk_walk0004_004.png
+5	Walk_walk0005_005.png
+6	Walk_walk0006_006.png

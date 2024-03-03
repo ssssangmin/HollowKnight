@@ -1,0 +1,8 @@
+version: 2
+type: animation
+name: Attack Cooldown
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 1
+0	Attack Cooldown_z01_attack_v02009_000.png

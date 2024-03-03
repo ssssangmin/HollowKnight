@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 761891576d350184f93e5522a25cdad1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1741
+        width: 551
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 275.5, y: 99}
+        - {x: -275.5, y: 99}
+        - {x: -275.5, y: 70}
+        - {x: -154.5, y: -99}
+        - {x: 275.5, y: -99}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358dfec29a50f6e4cab31bbedacfebcd
+      internalID: -2065583729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 1225
+        width: 576
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -203, y: 246}
+        - {x: -231, y: 270}
+        - {x: -288, y: 270}
+        - {x: -288, y: 22}
+        - {x: -243, y: -23}
+        - {x: -152, y: -75}
+        - {x: -94, y: -209}
+        - {x: -89, y: -270}
+        - {x: 288, y: -270}
+        - {x: 288, y: 205}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6367c8e098347b6478fee2afd9e21bc1
+      internalID: -847715647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 295
+        width: 467
+        height: 1315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -232.5, y: 657.5}
+        - {x: -233.5, y: 317.5}
+        - {x: -30.5, y: 269.5}
+        - {x: 34.5, y: 3.5}
+        - {x: 51.5, y: -657.5}
+        - {x: 133.5, y: -657.5}
+        - {x: 166.5, y: -503.5}
+        - {x: 202.5, y: -429.5}
+        - {x: 202.5, y: -308.5}
+        - {x: 214.5, y: -69.5}
+        - {x: 182.5, y: 392.5}
+        - {x: 16.5, y: 546.5}
+        - {x: -50.5, y: 657.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0074fcf14d2f0f4ab250a7e25e5bfed
+      internalID: -326877810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1
+        width: 223
+        height: 1240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 620}
+        - {x: -111.5, y: 620}
+        - {x: -111.5, y: -620}
+        - {x: 46.5, y: -620}
+        - {x: 81.5, y: -563}
+        - {x: 82.5, y: -340}
+        - {x: 111.5, y: 316}
+        - {x: 111.5, y: 548}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cd33794c2b06842b334f1a874cd98f
+      internalID: -1750315598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_6
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 742
+        width: 154
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2993345c6b1edcf4a8b69b7ad51f4b52
+      internalID: 391870515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 2
+        width: 430
+        height: 717
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: 131.5}
+        - {x: -91, y: 43.5}
+        - {x: -1, y: -33.5}
+        - {x: 43, y: -358.5}
+        - {x: 137, y: -358.5}
+        - {x: 138, y: -101.5}
+        - {x: 215, y: 35.5}
+        - {x: 215, y: 127.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62312e5867c40b24d976442db2066780
+      internalID: -872357814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 637
+        width: 156
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f879634dedea40c479ce7f70ed3872c1
+      internalID: -1611191480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 266
+        width: 123
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b2666c8793a448a5d3540f6b7087f
+      internalID: -1666586378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 250
+        width: 101
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8153df2337751428d4938b5eecac63
+      internalID: -1598037883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 206
+        width: 134
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73982dafac0bd0540beb41d78447df3f
+      internalID: -1902645935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_13
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 244
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 135}
+        - {x: -94, y: 135}
+        - {x: -122, y: -28}
+        - {x: 17, y: -135}
+        - {x: 122, y: -135}
+        - {x: 122, y: 30}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0efa8ec326df84fb9c8b1892b6b92f
+      internalID: -476077757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 517
+        height: 246
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: 89}
+        - {x: -119.5, y: 123}
+        - {x: -218.5, y: 123}
+        - {x: -228.5, y: -72}
+        - {x: -258.5, y: -100}
+        - {x: -258.5, y: -123}
+        - {x: 258.5, y: -123}
+        - {x: 258.5, y: -105}
+        - {x: 144.5, y: 15}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2598f3b7a1bc744b6df9fbd4c94f62
+      internalID: -524302662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_0: 2072081931
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_1: -2065583729
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_10: -1666586378
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_11: -1598037883
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_12: -1902645935
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_13: -476077757
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_14: -524302662
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_2: -847715647
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_3: -326877810
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_4: -1750315598
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_5: 313138184
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_6: 391870515
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_7: 742567671
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_8: -872357814
+      sactx-0-1024x2048-DXT5-Hallownest_Gate-f214c4f1_9: -1611191480
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

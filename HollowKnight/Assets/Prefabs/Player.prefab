@@ -122,9 +122,8 @@ GameObject:
   - component: {fileID: 3446248053589244334}
   - component: {fileID: 1292501231}
   - component: {fileID: 1292501232}
-  - component: {fileID: 1292501233}
   - component: {fileID: 1292501234}
-  - component: {fileID: 1292501235}
+  - component: {fileID: 1232498260}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -310,19 +309,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   focusDelay: 1
---- !u!114 &1292501233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6069237509701259825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d49378584ac12ae4dac3392089b8c23e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  saveFrequency: 3
 --- !u!114 &1292501234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,7 +322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
---- !u!114 &1292501235
+--- !u!114 &1232498260
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,10 +331,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6069237509701259825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4fadb05ec684e347ab8cb8084df14da, type: 3}
+  m_Script: {fileID: 11500000, guid: ed33929d04801c645aa2b0ebbdffc958, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  extraHeight: 0.25
-  groundLayer:
+  savePoint:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 256

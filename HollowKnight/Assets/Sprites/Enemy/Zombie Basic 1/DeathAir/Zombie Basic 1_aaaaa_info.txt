@@ -1,0 +1,12 @@
+version: 2
+type: animation
+name: Fall
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 5
+0	Fall_death0000_000.png
+1	Fall_death0001_001.png
+2	Fall_death0002_002.png
+3	Fall_death0003_003.png
+4	Fall_death0002_004.png
