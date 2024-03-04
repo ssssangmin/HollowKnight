@@ -1,0 +1,9 @@
+version: 2
+type: animation
+name: A Dash
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 2
+0	A Dash_attack_air_dash0007_000.png
+1	A Dash_attack_air_dash0008_001.png

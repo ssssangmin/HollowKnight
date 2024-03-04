@@ -1,0 +1,13 @@
+version: 2
+type: animation
+name: G Dash Effect
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 6
+0	G Dash Effect_ground_dash_effect0000_000.png
+1	G Dash Effect_ground_dash_effect0001_001.png
+2	G Dash Effect_ground_dash_effect0002_002.png
+3	G Dash Effect_ground_dash_effect0003_003.png
+4	G Dash Effect_ground_dash_effect0004_004.png
+5	G Dash Effect_ground_dash_effect0005_005.png

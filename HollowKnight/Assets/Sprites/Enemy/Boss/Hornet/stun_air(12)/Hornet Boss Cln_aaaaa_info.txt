@@ -1,0 +1,11 @@
+version: 2
+type: animation
+name: Death Air
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 4
+0	Death Air_stun_air0000_000.png
+1	Death Air_stun_air0001_001.png
+2	Death Air_stun_air0002_002.png
+3	Death Air_stun_air0003_003.png

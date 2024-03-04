@@ -1,0 +1,16 @@
+version: 2
+type: animation
+name: A Dash Antic
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 9
+0	A Dash Antic_attack_air_dash0000_000.png
+1	A Dash Antic_attack_air_dash0001_001.png
+2	A Dash Antic_attack_air_dash0002_002.png
+3	A Dash Antic_attack_air_dash0003_003.png
+4	A Dash Antic_attack_air_dash0004_004.png
+5	A Dash Antic_attack_air_dash0005_005.png
+6	A Dash Antic_attack_air_dash0003_006.png
+7	A Dash Antic_attack_air_dash0004_007.png
+8	A Dash Antic_attack_air_dash0006_008.png

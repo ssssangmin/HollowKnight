@@ -1,0 +1,17 @@
+version: 2
+type: animation
+name: G Dash Antic
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 10
+0	G Dash Antic_hornet_dash0000_000.png
+1	G Dash Antic_hornet_dash0001_001.png
+2	G Dash Antic_hornet_dash0002_002.png
+3	G Dash Antic_hornet_dash0003_003.png
+4	G Dash Antic_hornet_dash0004_004.png
+5	G Dash Antic_hornet_dash0005_005.png
+6	G Dash Antic_hornet_dash0003_006.png
+7	G Dash Antic_hornet_dash0004_007.png
+8	G Dash Antic_hornet_dash0005_008.png
+9	G Dash Antic_hornet_dash0006_009.png

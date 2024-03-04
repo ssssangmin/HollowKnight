@@ -1,0 +1,13 @@
+version: 2
+type: animation
+name: Throw Recover
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 6
+0	Throw Recover_hornet_throw0015_000.png
+1	Throw Recover_hornet_throw0016_001.png
+2	Throw Recover_hornet_throw0017_002.png
+3	Throw Recover_hornet_throw0018_003.png
+4	Throw Recover_hornet_throw0019_004.png
+5	Throw Recover_hornet_throw0020_005.png

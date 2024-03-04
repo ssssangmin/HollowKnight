@@ -1,0 +1,13 @@
+version: 2
+type: animation
+name: G Dash Recover
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 6
+0	G Dash Recover_hornet_dash0009_000.png
+1	G Dash Recover_hornet_dash0010_001.png
+2	G Dash Recover_hornet_dash0011_002.png
+3	G Dash Recover_hornet_dash0012_003.png
+4	G Dash Recover_hornet_dash0013_004.png
+5	G Dash Recover_hornet_dash0014_005.png

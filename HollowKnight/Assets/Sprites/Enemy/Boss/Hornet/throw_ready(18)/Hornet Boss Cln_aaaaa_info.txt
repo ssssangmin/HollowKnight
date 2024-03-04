@@ -1,0 +1,21 @@
+version: 2
+type: animation
+name: Throw Antic
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 14
+0	Throw Antic_hornet_throw0001_000.png
+1	Throw Antic_hornet_throw0002_001.png
+2	Throw Antic_hornet_throw0003_002.png
+3	Throw Antic_hornet_throw0004_003.png
+4	Throw Antic_hornet_throw0005_004.png
+5	Throw Antic_hornet_throw0006_005.png
+6	Throw Antic_hornet_throw0007_006.png
+7	Throw Antic_hornet_throw0005_007.png
+8	Throw Antic_hornet_throw0006_008.png
+9	Throw Antic_hornet_throw0007_009.png
+10	Throw Antic_hornet_throw0005_010.png
+11	Throw Antic_hornet_throw0006_011.png
+12	Throw Antic_hornet_throw0007_012.png
+13	Throw Antic_hornet_throw0008_013.png

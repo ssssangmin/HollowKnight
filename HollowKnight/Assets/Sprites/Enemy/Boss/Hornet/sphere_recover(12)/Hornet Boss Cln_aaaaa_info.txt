@@ -1,0 +1,10 @@
+version: 2
+type: animation
+name: Sphere Recover A
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 3
+0	Sphere Recover A_attack_thread0016_000.png
+1	Sphere Recover A_attack_thread0017_001.png
+2	Sphere Recover A_attack_thread0018_002.png

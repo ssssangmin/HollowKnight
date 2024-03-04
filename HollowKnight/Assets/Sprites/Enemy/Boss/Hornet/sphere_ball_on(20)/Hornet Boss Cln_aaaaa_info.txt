@@ -1,0 +1,16 @@
+version: 2
+type: animation
+name: Sphere Ball
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 9
+0	Sphere Ball_thread_sphere_effect0000_000.png
+1	Sphere Ball_thread_sphere_effect0001_001.png
+2	Sphere Ball_thread_sphere_effect0002_002.png
+3	Sphere Ball_thread_sphere_effect0003_003.png
+4	Sphere Ball_thread_sphere_effect0004_004.png
+5	Sphere Ball_thread_sphere_effect0005_005.png
+6	Sphere Ball_thread_sphere_effect0006_006.png
+7	Sphere Ball_thread_sphere_effect0007_007.png
+8	Sphere Ball_thread_sphere_effect0008_008.png
