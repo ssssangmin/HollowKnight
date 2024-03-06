@@ -11,20 +11,17 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         Attack,
         Damaged,
         Die
-    };
+    }
 
     private State e_State;
 
     [SerializeField] private float maxHealth = 3.0f;
+    [SerializeField] private float speed = 0.2f;
 
     private float currentHealth;
 
     private Animator anim;
     private Rigidbody2D rb;
-
-    [SerializeField] private float speed = 2;
-    [SerializeField] private float range = 0.5f;
-    [SerializeField] private float maxDistance = 0;
 
     Vector2 wayPoint;
 
@@ -48,25 +45,23 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         {
             case State.Idle:
                 Idle();
-                return;
+                break;
             case State.Move:
                 Move();
-                return;
+                break;
             case State.Attack:
                 Attack();
-                return;
+                break;
             case State.Damaged:
-                return;
+                break;
             case State.Die:
-                return;
+                break;
         }
     }
 
     private void Idle()
     {
-        // Idle상태와 Move상태를 1초마다 랜덤으로 전환
-
-
+        StartCoroutine(MoveTransition());
 
         // Attack 전환 조건
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -80,9 +75,20 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         }
     }
 
+    IEnumerator MoveTransition()
+    {
+        yield return new WaitForSeconds(1.0f);
+
+        e_State = State.Move;
+        anim.SetTrigger("Walk");
+    }
+
     private void Move()
     {
         // Idle 전환 조건
+        StartCoroutine(IdleTransition());
+
+        
 
         // Attack 전환 조건
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -93,6 +99,27 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         {
             e_State = State.Attack;
             anim.SetTrigger("Attack");
+        }
+    }
+
+    IEnumerator IdleTransition()
+    {
+        yield return new WaitForSeconds(3.0f);
+
+        e_State = State.Idle;
+        anim.SetTrigger("WalkToIdle");
+
+        yield return new WaitForSeconds(1.0f);
+
+        if (transform.rotation.y == 180f)
+        {
+            Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
+            transform.rotation = Quaternion.Euler(rotate);
+        }
+        else if (transform.rotation.y == 0f)
+        {
+            Vector3 rotate = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
+            transform.rotation = Quaternion.Euler(rotate);
         }
     }
 
