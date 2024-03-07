@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,561 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1769
+        width: 291
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -145.5, y: 80}
+        - {x: -145.5, y: -12}
+        - {x: -48.5, y: -80}
+        - {x: 125.5, y: -80}
+        - {x: 145.5, y: -40}
+        - {x: 145.5, y: 45}
+        - {x: 125.5, y: 80}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a554cd0906f463d4b9ed645e844a43d7
+      internalID: 350740565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_1
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1837
+        width: 365
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -182.5, y: 86.5}
+        - {x: -182.5, y: 32.5}
+        - {x: -104.5, y: -58.5}
+        - {x: -18.5, y: -50.5}
+        - {x: 54.5, y: -86.5}
+        - {x: 146.5, y: -86.5}
+        - {x: 182.5, y: -49.5}
+        - {x: 182.5, y: 55.5}
+        - {x: 162.5, y: 86.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fe9b09fcf81984987a5a2266070989
+      internalID: -2131665055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1660
+        width: 178
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d87351f79865440ad66f6d343acc55
+      internalID: -2098561712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_3
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1770
+        width: 256
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 83, y: 105}
+        - {x: -50, y: 105}
+        - {x: -128, y: 59}
+        - {x: -128, y: -74}
+        - {x: -80, y: -105}
+        - {x: 120, y: -105}
+        - {x: 128, y: -95}
+        - {x: 128, y: 22}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eddc505ece9ed543bf251a0cf5faef1
+      internalID: 873777501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1387
+        width: 475
+        height: 380
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2524f34ee8247e041be4a19c7a54ed32
+      internalID: -388391034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 839
+        width: 465
+        height: 585
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -136.5, y: 292.5}
+        - {x: -232.5, y: 240.5}
+        - {x: -232.5, y: -195.5}
+        - {x: -170.5, y: -292.5}
+        - {x: 7.5, y: -292.5}
+        - {x: 232.5, y: -21.5}
+        - {x: 232.5, y: 96.5}
+        - {x: 104.5, y: 292.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd071ede9b86154caac4baa43cbfcc7
+      internalID: 1487693595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1539
+        width: 238
+        height: 264
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75, y: 132}
+        - {x: -119, y: 16}
+        - {x: -119, y: -98}
+        - {x: -42, y: -132}
+        - {x: 119, y: -132}
+        - {x: 119, y: 64}
+        - {x: 34, y: 132}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63a571d322aaa340931bc4194174ae7
+      internalID: -473327595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1146
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50a717180c82f54d9157803bc1d4cab
+      internalID: -1289211531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_8
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 1195
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1125cf49037bf46881df2469bb1bfa
+      internalID: -117355014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 753
+        width: 189
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94.5, y: 92.5}
+        - {x: -94.5, y: -58.5}
+        - {x: -59.5, y: -92.5}
+        - {x: 57.5, y: -92.5}
+        - {x: 94.5, y: -47.5}
+        - {x: 94.5, y: 92.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762756b56ee557f49ab7e2980407586e
+      internalID: -1168404720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_11
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 526
+        width: 502
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e916dc817da2546bb43dba30528f35
+      internalID: -1321472689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_12
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 889
+        width: 184
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a37903ce1e36f47a9111d90184be63
+      internalID: -453218963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 327
+        width: 569
+        height: 467
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 205.5, y: 164.5}
+        - {x: 65.5, y: 233.5}
+        - {x: -51.5, y: 233.5}
+        - {x: -128.5, y: 200.5}
+        - {x: -284.5, y: 82.5}
+        - {x: -284.5, y: -189.5}
+        - {x: -170.5, y: -233.5}
+        - {x: 60.5, y: -221.5}
+        - {x: 284.5, y: -148.5}
+        - {x: 284.5, y: 18.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a383269186b9f5242ac87f8bf97e63a2
+      internalID: 1683488303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 164
+        width: 146
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54c8a5286c4a3446be91c3a9025764a
+      internalID: 22918995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_17
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 205
+        width: 116
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ab84bf14930f349b925f0ef8ca59ce
+      internalID: 1053644605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_19
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 213
+        width: 232
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272e01f5735de934abd91c0f3d3f6c22
+      internalID: 704740820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_20
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 200
+        width: 230
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -106, y: 106}
+        - {x: -115, y: 66}
+        - {x: -115, y: -106}
+        - {x: 115, y: -106}
+        - {x: 115, y: 42}
+        - {x: 86, y: 106}
+      - - {x: -112, y: -103}
+        - {x: -109, y: -101}
+        - {x: -110, y: -98}
+        - {x: -115, y: -97}
+        - {x: -115, y: -102}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be59812b0e64864da09ead5061d8881
+      internalID: -75888461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_21
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 292
+        width: 182
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90, y: 78.5}
+        - {x: -91, y: 71.5}
+        - {x: -91, y: -15.5}
+        - {x: -52, y: -78.5}
+        - {x: 49, y: -78.5}
+        - {x: 91, y: -37.5}
+        - {x: 91, y: 78.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c8cba5b5bd2b84095efe1e7fea17c1
+      internalID: 862530595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_23
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 0
+        width: 368
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3b363b64da374abd4fdd3b15066cc
+      internalID: 1321244103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_26
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 255
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 80.5, y: 97.5}
+        - {x: -42.5, y: 97.5}
+        - {x: -79.5, y: 90.5}
+        - {x: -127.5, y: 16.5}
+        - {x: -127.5, y: -89.5}
+        - {x: -126.5, y: -97.5}
+        - {x: 119.5, y: -97.5}
+        - {x: 127.5, y: -92.5}
+        - {x: 127.5, y: 20.5}
+        - {x: 102.5, y: 91.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9409368b7928684aa4384af2bcfd3e6
+      internalID: 1086258132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_27
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 0
+        width: 235
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecab49f6d0b3b84fb457ed9e22bc41b
+      internalID: -2035144885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_9
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1409
+        width: 195
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 61.5}
+        - {x: -22.5, y: 68.5}
+        - {x: -88.5, y: 68.5}
+        - {x: -96.5, y: 56.5}
+        - {x: -96.5, y: -41.5}
+        - {x: -46.5, y: -65.5}
+        - {x: 87.5, y: -65.5}
+        - {x: 95.5, y: -42.5}
+        - {x: 95.5, y: 60.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14798d11304cf94bbfb241a1fc6aaf4
+      internalID: -245332528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +668,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_0: 350740565
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_1: -2131665055
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_10: -1168404720
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_11: -1321472689
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_12: -453218963
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_13: 314992985
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_14: 1683488303
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_15: 655615724
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_16: 22918995
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_17: 1053644605
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_18: -321054306
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_19: 704740820
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_2: -2098561712
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_20: -75888461
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_21: 862530595
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_22: -1420580173
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_23: 1321244103
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_24: -152696495
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_25: -1834420539
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_26: 1086258132
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_27: -2035144885
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_3: 873777501
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_4: -388391034
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_5: 1487693595
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_6: -473327595
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_7: -1289211531
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_8: -117355014
+      sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684_9: -245332528
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
