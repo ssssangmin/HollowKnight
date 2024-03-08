@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -138,10 +138,10 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_2
       rect:
         serializedVersion: 2
-        x: 1042
-        y: 3811
-        width: 123
-        height: 154
+        x: 3562
+        y: 2770
+        width: 144
+        height: 101
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,10 +159,10 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_3
       rect:
         serializedVersion: 2
-        x: 1497
+        x: 1578
         y: 3877
-        width: 188
-        height: 219
+        width: 107
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,132 +172,6 @@ TextureImporter:
       bones: []
       spriteID: 4d58b12516fb907429b8a4255686582a
       internalID: -1299179470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_4
-      rect:
-        serializedVersion: 2
-        x: 1885
-        y: 3805
-        width: 328
-        height: 291
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13c1650f5c6eea242b2847465825c93d
-      internalID: -212356121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_5
-      rect:
-        serializedVersion: 2
-        x: 2467
-        y: 3633
-        width: 373
-        height: 463
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ec0348e75dc2443a01aee73dfb5b27
-      internalID: -1827239213
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_7
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 3728
-        width: 138
-        height: 212
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e722ea072c300064588d79c9a279fd5c
-      internalID: 1581729591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_8
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 3863
-        width: 122
-        height: 148
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 541a591502b2ecc439314213d2d15063
-      internalID: -739625333
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_9
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 3871
-        width: 64
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32b80e1aab0cb4245bbefe3b24abd0a7
-      internalID: -681370178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_10
-      rect:
-        serializedVersion: 2
-        x: 479
-        y: 3863
-        width: 72
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2743b82a37cd0a94995009a2370c099d
-      internalID: -1825986753
       vertices: []
       indices: 
       edges: []
@@ -313,7 +187,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -36, y: 78}
+        - {x: -36, y: 34}
+        - {x: -10, y: -78}
+        - {x: 5, y: -78}
+        - {x: 36, y: 78}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -361,174 +240,6 @@ TextureImporter:
       bones: []
       spriteID: 82e871e9025f01b45bf8dcb9e17923de
       internalID: 1348832775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_15
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 3699
-        width: 607
-        height: 224
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 376db326f4392664baba9b1579c4bacb
-      internalID: -278146464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_17
-      rect:
-        serializedVersion: 2
-        x: 2280
-        y: 3715
-        width: 82
-        height: 194
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af38b2068f4e8fa4ca14903db25e2eed
-      internalID: -2085102915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_19
-      rect:
-        serializedVersion: 2
-        x: 961
-        y: 3701
-        width: 106
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d9ce87f1a2d1584887a2d00582e6a36
-      internalID: 1275866567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_20
-      rect:
-        serializedVersion: 2
-        x: 1147
-        y: 3765
-        width: 288
-        height: 130
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3ace84beebbe7f44d9416b65d45599e7
-      internalID: 516755861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_21
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 3543
-        width: 257
-        height: 350
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a689f5b733456e4bb1fe5427b9c82b0
-      internalID: 724928908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_22
-      rect:
-        serializedVersion: 2
-        x: 2357
-        y: 3844
-        width: 48
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53de466b67feacf429dfab8109fcc5c6
-      internalID: 1545844965
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_23
-      rect:
-        serializedVersion: 2
-        x: 2413
-        y: 3831
-        width: 86
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e00b149d41fbc7a498d62abfbc8c11fe
-      internalID: 1379392860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_26
-      rect:
-        serializedVersion: 2
-        x: 835
-        y: 3699
-        width: 120
-        height: 152
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0290b5c041862b4fb2351c9ea2c5112
-      internalID: 1086052367
       vertices: []
       indices: 
       edges: []
@@ -628,111 +339,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_33
-      rect:
-        serializedVersion: 2
-        x: 1953
-        y: 3745
-        width: 62
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1d9b9afcd082e445a76e82077c2d4a0
-      internalID: -188767123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_34
-      rect:
-        serializedVersion: 2
-        x: 2041
-        y: 3747
-        width: 58
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccd43dcfe1ec2424bb1e59421c354f5c
-      internalID: 1937691436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_35
-      rect:
-        serializedVersion: 2
-        x: 2101
-        y: 3763
-        width: 30
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac8113b3eb249a949a04936c59f0ab8b
-      internalID: 1576819252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_36
-      rect:
-        serializedVersion: 2
-        x: 2357
-        y: 3739
-        width: 103
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eaef6b76bdd186d49bb821e5c247b843
-      internalID: 782956668
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_37
-      rect:
-        serializedVersion: 2
-        x: 2455
-        y: 3731
-        width: 46
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc4d25523db23ec41afdebc284f64891
-      internalID: 1335173554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_38
       rect:
         serializedVersion: 2
@@ -749,48 +355,6 @@ TextureImporter:
       bones: []
       spriteID: 692e5e8528e0487449c799760572ad97
       internalID: -126535480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_39
-      rect:
-        serializedVersion: 2
-        x: 3387
-        y: 3723
-        width: 24
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28df989b49c4c9f4cbff583554fa3885
-      internalID: 489487559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_40
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 3573
-        width: 144
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 897ca39d6b38ce44b9a230fefa52d77a
-      internalID: 530920550
       vertices: []
       indices: 
       edges: []
@@ -880,48 +444,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_46
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 3653
-        width: 128
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fdc06e5477db91c45892608b2f02ee86
-      internalID: 1067132911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_48
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 3641
-        width: 115
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5507b27275bb9641ae6a15ad7e499bd
-      internalID: 360592454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_49
       rect:
         serializedVersion: 2
@@ -938,27 +460,6 @@ TextureImporter:
       bones: []
       spriteID: f55bd6dfe7839584a8989f0801d952dd
       internalID: -657063177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_51
-      rect:
-        serializedVersion: 2
-        x: 3387
-        y: 3681
-        width: 22
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f8e6d9a2484404409c571eeeb12a821
-      internalID: 2093294162
       vertices: []
       indices: 
       edges: []
@@ -1069,27 +570,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_60
-      rect:
-        serializedVersion: 2
-        x: 853
-        y: 3483
-        width: 110
-        height: 168
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3eec6c544076265489cd528ab204edd5
-      internalID: -2103321960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_61
       rect:
         serializedVersion: 2
@@ -1153,27 +633,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_64
-      rect:
-        serializedVersion: 2
-        x: 3381
-        y: 3637
-        width: 34
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 306d0278581796b4fa083e146ea7e08f
-      internalID: -1047775881
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_65
       rect:
         serializedVersion: 2
@@ -1226,48 +685,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_68
-      rect:
-        serializedVersion: 2
-        x: 693
-        y: 3446
-        width: 150
-        height: 179
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3961c7010bdbcab498c9ae351c1dfec1
-      internalID: 311476651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_69
-      rect:
-        serializedVersion: 2
-        x: 969
-        y: 3503
-        width: 104
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8cd809461e1bbf4191ef01972eac009
-      internalID: -1945727014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_70
       rect:
         serializedVersion: 2
@@ -1299,7 +716,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 47, y: 42}
+        - {x: 47, y: 127}
+        - {x: -47, y: 127}
+        - {x: -47, y: -55}
+        - {x: -19, y: -127}
+        - {x: 3, y: -127}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -1326,27 +749,6 @@ TextureImporter:
       bones: []
       spriteID: aad6a9e0f2c1859478b62ac139daf71a
       internalID: -279843387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_73
-      rect:
-        serializedVersion: 2
-        x: 2509
-        y: 3541
-        width: 124
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c58ebbb6c65c639419db16b2e4a081f1
-      internalID: -2115830573
       vertices: []
       indices: 
       edges: []
@@ -1394,34 +796,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_76
-      rect:
-        serializedVersion: 2
-        x: 3085
-        y: 3507
-        width: 110
-        height: 114
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88323237fa857ba498c1ce4fba4eb9fd
-      internalID: 656456129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_77
       rect:
         serializedVersion: 2
         x: 3197
         y: 3483
         width: 126
-        height: 142
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1431,27 +812,6 @@ TextureImporter:
       bones: []
       spriteID: c3267680ec5f74d46b307736dc7b6a0f
       internalID: -477167695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_78
-      rect:
-        serializedVersion: 2
-        x: 3289
-        y: 3527
-        width: 174
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb7bcb4017ff00148a9810a4ea3112ab
-      internalID: -1731993069
       vertices: []
       indices: 
       edges: []
@@ -1494,69 +854,6 @@ TextureImporter:
       bones: []
       spriteID: 0916bd2aacd1f4c46894c5b89886ef1b
       internalID: 249443533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_82
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 3473
-        width: 56
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4df9e2d4d4551264d8ddfc4f981272d3
-      internalID: 969656849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_83
-      rect:
-        serializedVersion: 2
-        x: 285
-        y: 3477
-        width: 28
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed1ff3da55bdb1b42b354be22210670c
-      internalID: -2107314013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_84
-      rect:
-        serializedVersion: 2
-        x: 962
-        y: 3118
-        width: 151
-        height: 391
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51f3506baad70704eaad06fcc8c4858a
-      internalID: -1094844527
       vertices: []
       indices: 
       edges: []
@@ -1646,27 +943,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_91
-      rect:
-        serializedVersion: 2
-        x: 537
-        y: 3321
-        width: 154
-        height: 169
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef8e4772b8a04a34d9a3fa4205079e69
-      internalID: -1710727212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_92
       rect:
         serializedVersion: 2
@@ -1725,48 +1001,6 @@ TextureImporter:
       bones: []
       spriteID: a85af4bd69dfa4f4ca6a31456ea96036
       internalID: -142192146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_96
-      rect:
-        serializedVersion: 2
-        x: 2479
-        y: 2925
-        width: 202
-        height: 531
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f77acf04959aca44d98a073a8f6cee8a
-      internalID: 1896074315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_98
-      rect:
-        serializedVersion: 2
-        x: 3091
-        y: 3331
-        width: 82
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 388c1a0fa9c9fa343a1940963998a935
-      internalID: -966775583
       vertices: []
       indices: 
       edges: []
@@ -1919,48 +1153,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_108
-      rect:
-        serializedVersion: 2
-        x: 1211
-        y: 3229
-        width: 152
-        height: 172
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a1762c5b04f62a4ebae8f6c0aa42f54
-      internalID: 285317703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_109
-      rect:
-        serializedVersion: 2
-        x: 1875
-        y: 3355
-        width: 56
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 166bb1c4869a86f4b9da2de7c0de46fe
-      internalID: 1362565534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_110
       rect:
         serializedVersion: 2
@@ -1977,48 +1169,6 @@ TextureImporter:
       bones: []
       spriteID: 4da176cb13c199b4daf13df9ff9a4584
       internalID: 494814547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_113
-      rect:
-        serializedVersion: 2
-        x: 3623
-        y: 3309
-        width: 12
-        height: 96
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f05fb18e0e0a56d49adc591511d3f8fa
-      internalID: 714662535
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_114
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 3245
-        width: 56
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34659b04421586b4c90842b649c2ad92
-      internalID: -1762057301
       vertices: []
       indices: 
       edges: []
@@ -2087,27 +1237,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_118
-      rect:
-        serializedVersion: 2
-        x: 2868
-        y: 3237
-        width: 227
-        height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6aa7c16e3daf57a479bf7d54110a463c
-      internalID: -125523673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_119
       rect:
         serializedVersion: 2
@@ -2124,27 +1253,6 @@ TextureImporter:
       bones: []
       spriteID: 5d8721a2b3d7e704eaeffb29bb96f737
       internalID: 777853159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_120
-      rect:
-        serializedVersion: 2
-        x: 3411
-        y: 3283
-        width: 108
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 06c5d9ed0218e4c42a81f9e064e39863
-      internalID: -310045764
       vertices: []
       indices: 
       edges: []
@@ -2187,48 +1295,6 @@ TextureImporter:
       bones: []
       spriteID: 1423c35a7b825e44aa533a44f6a44ebd
       internalID: -854418473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_124
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 3243
-        width: 14
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3116b595fe8c30e40a93a396173907fa
-      internalID: 1965285961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_125
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 3259
-        width: 42
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff798bae69c0eb64a853d76055dd60a1
-      internalID: 1932637306
       vertices: []
       indices: 
       edges: []
@@ -2292,48 +1358,6 @@ TextureImporter:
       bones: []
       spriteID: 567a47bf9181aa04cbd0a745be3483e0
       internalID: 1899080063
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_130
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 3253
-        width: 30
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4d1f166e772b1c4ea60df22227d3838
-      internalID: -632291924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_131
-      rect:
-        serializedVersion: 2
-        x: 654
-        y: 3261
-        width: 47
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5b06cbf475fdf1418060709fbbb0f03
-      internalID: 1740719913
       vertices: []
       indices: 
       edges: []
@@ -2407,38 +1431,23 @@ TextureImporter:
         serializedVersion: 2
         x: 3315
         y: 2833
-        width: 216
-        height: 448
+        width: 74
+        height: 238
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -37, y: 119}
+        - {x: -37, y: 62}
+        - {x: -6, y: -119}
+        - {x: 8, y: -119}
+        - {x: 37, y: 51}
+        - {x: 37, y: 119}
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: dcf87b00d1671d64687e0897a738052d
       internalID: 1515352576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_138
-      rect:
-        serializedVersion: 2
-        x: 553
-        y: 3231
-        width: 22
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 043941a0eae6e7d4fbb09d74f8c23374
-      internalID: 1106747546
       vertices: []
       indices: 
       edges: []
@@ -2555,69 +1564,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_148
-      rect:
-        serializedVersion: 2
-        x: 1579
-        y: 3083
-        width: 152
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bd815170d2468e499fa298e344952ac
-      internalID: -127302453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_150
-      rect:
-        serializedVersion: 2
-        x: 805
-        y: 3149
-        width: 128
-        height: 92
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eefffa26bca86c648a74be00b3f1885c
-      internalID: -1280289178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_151
-      rect:
-        serializedVersion: 2
-        x: 1827
-        y: 3123
-        width: 216
-        height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5436dee8a7180e43a783df92533fbfc
-      internalID: 424666138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_152
       rect:
         serializedVersion: 2
@@ -2723,27 +1669,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_162
-      rect:
-        serializedVersion: 2
-        x: 3751
-        y: 3141
-        width: 80
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad496731303857f4680b81b736064348
-      internalID: 1871844092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_163
       rect:
         serializedVersion: 2
@@ -2844,27 +1769,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_168
-      rect:
-        serializedVersion: 2
-        x: 3147
-        y: 2973
-        width: 106
-        height: 174
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f70d4253896b97746913b5ecc490180a
-      internalID: 547297513
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_169
       rect:
         serializedVersion: 2
@@ -2881,27 +1785,6 @@ TextureImporter:
       bones: []
       spriteID: bb20f2e42d704744fa5d68c3edc29129
       internalID: -93421840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_170
-      rect:
-        serializedVersion: 2
-        x: 3849
-        y: 3133
-        width: 52
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85f489737baf26f42b4a5bb7200237b5
-      internalID: -1500937089
       vertices: []
       indices: 
       edges: []
@@ -2928,48 +1811,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_174
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 2703
-        width: 151
-        height: 420
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fffd3e79df257f40b2ced5f02de8335
-      internalID: 1839972216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_175
-      rect:
-        serializedVersion: 2
-        x: 966
-        y: 3039
-        width: 440
-        height: 86
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b40df0d0af8815041a927e6018f7234b
-      internalID: 5598801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_177
       rect:
         serializedVersion: 2
@@ -2986,27 +1827,6 @@ TextureImporter:
       bones: []
       spriteID: 2aff5b2b14d1d5d488189236555e1c5e
       internalID: -208258018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_178
-      rect:
-        serializedVersion: 2
-        x: 3537
-        y: 2931
-        width: 76
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3aaadf715eb5f254181c82364a902337
-      internalID: -1463470373
       vertices: []
       indices: 
       edges: []
@@ -3054,27 +1874,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_184
-      rect:
-        serializedVersion: 2
-        x: 1959
-        y: 2883
-        width: 148
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36fca93ff738db6428de9e29f51d405f
-      internalID: 333274893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_185
       rect:
         serializedVersion: 2
@@ -3100,9 +1899,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 984
-        y: 2721
-        width: 513
-        height: 278
+        y: 2844
+        width: 250
+        height: 155
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3154,48 +1953,6 @@ TextureImporter:
       bones: []
       spriteID: 80d9b7fcd3fc79843b84933c2da08c44
       internalID: 1129695784
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_192
-      rect:
-        serializedVersion: 2
-        x: 2333
-        y: 2801
-        width: 125
-        height: 228
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cb9f5cf5be795a4685b6b01a53349e3
-      internalID: -1305175148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_193
-      rect:
-        serializedVersion: 2
-        x: 2901
-        y: 2957
-        width: 70
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab9326d33aa733c4a85d917c05ebc4a7
-      internalID: 1145395835
       vertices: []
       indices: 
       edges: []
@@ -3335,48 +2092,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_202
-      rect:
-        serializedVersion: 2
-        x: 3147
-        y: 2869
-        width: 112
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a68351e274de14e46bd54193d4194cc9
-      internalID: 86707494
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_203
-      rect:
-        serializedVersion: 2
-        x: 3262
-        y: 2897
-        width: 57
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55f8bd9b5ec04df44a458c76d1e6b7da
-      internalID: 1205329949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_204
       rect:
         serializedVersion: 2
@@ -3482,27 +2197,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_214
-      rect:
-        serializedVersion: 2
-        x: 2459
-        y: 2791
-        width: 384
-        height: 132
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8d4b9b2734e56043934d39b6c43e9da
-      internalID: 1080881161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_215
       rect:
         serializedVersion: 2
@@ -3519,27 +2213,6 @@ TextureImporter:
       bones: []
       spriteID: 875a2252bbae4a641b820640d561ed81
       internalID: -1666775645
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_216
-      rect:
-        serializedVersion: 2
-        x: 3223
-        y: 2828
-        width: 64
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 378e4134c354c634ca91ea2340408810
-      internalID: -884395805
       vertices: []
       indices: 
       edges: []
@@ -3587,48 +2260,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_220
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 2556
-        width: 174
-        height: 306
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1010a9e31827c6a43a633892a564e1fc
-      internalID: -1505464343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_221
-      rect:
-        serializedVersion: 2
-        x: 314
-        y: 2772
-        width: 120
-        height: 95
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: accca75df8adf1a48a6eb4e625489af2
-      internalID: -843917665
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_222
       rect:
         serializedVersion: 2
@@ -3656,7 +2287,7 @@ TextureImporter:
         x: 3563
         y: 2497
         width: 149
-        height: 374
+        height: 273
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3713,27 +2344,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_229
-      rect:
-        serializedVersion: 2
-        x: 3707
-        y: 2529
-        width: 116
-        height: 290
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec27125b971d1c74eb729400bf9aca57
-      internalID: 92748194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_230
       rect:
         serializedVersion: 2
@@ -3755,97 +2365,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_232
-      rect:
-        serializedVersion: 2
-        x: 299
-        y: 2703
-        width: 86
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27edf216c30898740a186f26479f4c93
-      internalID: 2045637426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_233
-      rect:
-        serializedVersion: 2
-        x: 587
-        y: 2699
-        width: 68
-        height: 66
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c92b76625f2809418704f777745caa4
-      internalID: -1497456941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_234
-      rect:
-        serializedVersion: 2
-        x: 689
-        y: 2693
-        width: 110
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5893454a4bbd6584a8672ebb44a1ab84
-      internalID: 1071576571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_236
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 2691
-        width: 50
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 758b269155c317046851bd471979abfc
-      internalID: -322144975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_237
       rect:
         serializedVersion: 2
-        x: 1169
+        x: 1324
         y: 2229
-        width: 300
-        height: 486
+        width: 145
+        height: 331
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3897,27 +2423,6 @@ TextureImporter:
       bones: []
       spriteID: 8b1575d913f81354a8e9bafd51dda4ab
       internalID: 1320034630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_240
-      rect:
-        serializedVersion: 2
-        x: 3251
-        y: 2675
-        width: 199
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2606e6c54132e8b428d094f1e5668e8b
-      internalID: 621763546
       vertices: []
       indices: 
       edges: []
@@ -3981,69 +2486,6 @@ TextureImporter:
       bones: []
       spriteID: 84703b914d85a6941b3742f8b1c51c1b
       internalID: 1643336002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_247
-      rect:
-        serializedVersion: 2
-        x: 635
-        y: 2553
-        width: 86
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c3962a121460404f9184e3b20d58ba3
-      internalID: -1176091372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_248
-      rect:
-        serializedVersion: 2
-        x: 697
-        y: 2317
-        width: 241
-        height: 338
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ee211f7950b31f4ca7e7704280cb49f
-      internalID: 604898751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_251
-      rect:
-        serializedVersion: 2
-        x: 847
-        y: 2563
-        width: 120
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbfe8bec7099a2f458f91fb60d0e7bef
-      internalID: -513035011
       vertices: []
       indices: 
       edges: []
@@ -4128,132 +2570,6 @@ TextureImporter:
       bones: []
       spriteID: 3e2b945679bce444c8a3203f89425af9
       internalID: 1307752372
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_256
-      rect:
-        serializedVersion: 2
-        x: 2719
-        y: 2526
-        width: 122
-        height: 151
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7613adf5b561d8b4c8c8734f08fba898
-      internalID: 1914713468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_257
-      rect:
-        serializedVersion: 2
-        x: 3283
-        y: 2316
-        width: 172
-        height: 339
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0dd9718db90217f468f2d6becd4bcbc2
-      internalID: -1405119575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_258
-      rect:
-        serializedVersion: 2
-        x: 3819
-        y: 2647
-        width: 32
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 741183140c148554898f415357989378
-      internalID: -701703506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_259
-      rect:
-        serializedVersion: 2
-        x: 3881
-        y: 2622
-        width: 60
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16c8d5b8949d3124e9b63014e7ac967c
-      internalID: -1534193220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_260
-      rect:
-        serializedVersion: 2
-        x: 4001
-        y: 2645
-        width: 24
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9c1b56df1c5b684ca31dffabadef6bb
-      internalID: 1082650711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_261
-      rect:
-        serializedVersion: 2
-        x: 4026
-        y: 2592
-        width: 70
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6454f3c47ab7da8488870afe4984c38d
-      internalID: 717407597
       vertices: []
       indices: 
       edges: []
@@ -4364,27 +2680,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_270
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 2412
-        width: 457
-        height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 661b4939ea36ba04a8ee095628e4074a
-      internalID: -1193791232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_271
       rect:
         serializedVersion: 2
@@ -4401,69 +2696,6 @@ TextureImporter:
       bones: []
       spriteID: 2bb99c06c1c5b9a498e2b30581ea7ac3
       internalID: 1953445683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_273
-      rect:
-        serializedVersion: 2
-        x: 3709
-        y: 2461
-        width: 72
-        height: 70
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b7600546ce329947970bd81b8e1ff2c
-      internalID: 830147267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_274
-      rect:
-        serializedVersion: 2
-        x: 3830
-        y: 2451
-        width: 59
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ff365a30f002bd439c922d7ce99f7c4
-      internalID: 355532342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_275
-      rect:
-        serializedVersion: 2
-        x: 3909
-        y: 2464
-        width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32521135952eea04bb7b2b6b68771a56
-      internalID: -1638919905
       vertices: []
       indices: 
       edges: []
@@ -4511,48 +2743,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_279
-      rect:
-        serializedVersion: 2
-        x: 925
-        y: 2195
-        width: 172
-        height: 279
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cfa0ca937b046647b33ebd27f966c84
-      internalID: 1311737440
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_280
-      rect:
-        serializedVersion: 2
-        x: 1077
-        y: 2181
-        width: 188
-        height: 294
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c6fd6ba60d291d4cb86762018914774
-      internalID: -530236882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_281
       rect:
         serializedVersion: 2
@@ -4580,7 +2770,7 @@ TextureImporter:
         x: 3627
         y: 1923
         width: 144
-        height: 546
+        height: 362
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4679,48 +2869,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_288
-      rect:
-        serializedVersion: 2
-        x: 1680
-        y: 2333
-        width: 71
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4963f208d4c0ea429de2e3ae090a924
-      internalID: -1598351520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_290
-      rect:
-        serializedVersion: 2
-        x: 2943
-        y: 2349
-        width: 62
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff43f394e06ad264fa37ad5c4f98530b
-      internalID: -1586282998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_291
       rect:
         serializedVersion: 2
@@ -4805,34 +2953,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_295
-      rect:
-        serializedVersion: 2
-        x: 1475
-        y: 2219
-        width: 14
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 02cd5e01e0ead384686caf3cbfcc3bdc
-      internalID: -1441989909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_296
       rect:
         serializedVersion: 2
-        x: 1613
+        x: 1629
         y: 2177
-        width: 158
-        height: 198
+        width: 137
+        height: 145
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -5036,48 +3163,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_310
-      rect:
-        serializedVersion: 2
-        x: 3285
-        y: 2141
-        width: 112
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b9c25e36b923da143a341ef34579f233
-      internalID: -1128361025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_311
-      rect:
-        serializedVersion: 2
-        x: 2201
-        y: 1869
-        width: 123
-        height: 432
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43efc1b18e3646f418567f555e599827
-      internalID: -1083030820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_316
       rect:
         serializedVersion: 2
@@ -5094,27 +3179,6 @@ TextureImporter:
       bones: []
       spriteID: 17b5352b3ee2a164bbe4b420c4293a3f
       internalID: -101215211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_317
-      rect:
-        serializedVersion: 2
-        x: 1233
-        y: 1959
-        width: 174
-        height: 280
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ba3f98da5c93cf4d81e94ad669548d6
-      internalID: 1895782168
       vertices: []
       indices: 
       edges: []
@@ -5141,27 +3205,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_319
-      rect:
-        serializedVersion: 2
-        x: 1495
-        y: 2227
-        width: 50
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af2d23e36e77e2547a5063c15db6033a
-      internalID: 417388242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_320
       rect:
         serializedVersion: 2
@@ -5178,27 +3221,6 @@ TextureImporter:
       bones: []
       spriteID: 32b5c4bcee1ce984ca1d7539a49c5446
       internalID: -457575249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_321
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 2171
-        width: 38
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 419695002740623458315a28e78425c8
-      internalID: -1996298303
       vertices: []
       indices: 
       edges: []
@@ -5381,27 +3403,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_332
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 2089
-        width: 60
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f85c27b7f2a55be46ac43bc679dcbf21
-      internalID: 214489349
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_333
       rect:
         serializedVersion: 2
@@ -5444,48 +3445,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_335
-      rect:
-        serializedVersion: 2
-        x: 3136
-        y: 1801
-        width: 123
-        height: 315
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c3a4f4d9fffb1443b0a99e5e655f8f1
-      internalID: -1411631781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_337
-      rect:
-        serializedVersion: 2
-        x: 3213
-        y: 2085
-        width: 115
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0fa28ae54f6ad8f41b0ff00923705b14
-      internalID: 389318963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_338
       rect:
         serializedVersion: 2
@@ -5502,48 +3461,6 @@ TextureImporter:
       bones: []
       spriteID: fa4187693d9b5ef4b8622f9f0d60d169
       internalID: 417350767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_339
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 1989
-        width: 50
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 975b7cad528f1c5429885065066c330c
-      internalID: -1905970294
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_340
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 1933
-        width: 84
-        height: 122
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7041125a54d7e624e8bd93ae8ab7e0b3
-      internalID: 320898624
       vertices: []
       indices: 
       edges: []
@@ -5570,69 +3487,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_345
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 1985
-        width: 42
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1c6f40300fe494bb4ae7623ce4c52c
-      internalID: 1864895545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_346
-      rect:
-        serializedVersion: 2
-        x: 601
-        y: 1971
-        width: 58
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ebad628bcd3cf6438ef676ad2884760
-      internalID: -660873781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_347
-      rect:
-        serializedVersion: 2
-        x: 771
-        y: 1963
-        width: 70
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa7075d53fa61b642aac6c800dcc3b56
-      internalID: -73136029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_348
       rect:
         serializedVersion: 2
@@ -5649,27 +3503,6 @@ TextureImporter:
       bones: []
       spriteID: b16f0988fcd9b064b830ee306fac1336
       internalID: 1391282409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_349
-      rect:
-        serializedVersion: 2
-        x: 1631
-        y: 1969
-        width: 60
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54f7fd46c09407444adcb61be29b3b21
-      internalID: -1920852601
       vertices: []
       indices: 
       edges: []
@@ -5725,90 +3558,6 @@ TextureImporter:
       bones: []
       spriteID: f944b6d2377f05047bb4648a7fb8691a
       internalID: -1261671524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_355
-      rect:
-        serializedVersion: 2
-        x: 1699
-        y: 1945
-        width: 40
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d2fba9eeffb66b448c87ac24758e419
-      internalID: -1751945901
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_356
-      rect:
-        serializedVersion: 2
-        x: 1782
-        y: 1947
-        width: 33
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd50569bdb0b4ca41b1add9844738e0f
-      internalID: -1281589960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_357
-      rect:
-        serializedVersion: 2
-        x: 1879
-        y: 1893
-        width: 82
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a59c0abc5c18ae44a85cbc94a215583
-      internalID: 352093862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_358
-      rect:
-        serializedVersion: 2
-        x: 2011
-        y: 1931
-        width: 47
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8fcfae4b0d1ef5840b1419da0f943b5e
-      internalID: 1603077064
       vertices: []
       indices: 
       edges: []
@@ -5982,69 +3731,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_369
-      rect:
-        serializedVersion: 2
-        x: 1939
-        y: 1885
-        width: 32
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32e495a450798e948a47c22fa027cdb5
-      internalID: -1110727104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_370
-      rect:
-        serializedVersion: 2
-        x: 2936
-        y: 1702
-        width: 206
-        height: 215
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bb713f00a9a1df41b3fcce4c27d79bf
-      internalID: -789165092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_372
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 1745
-        width: 62
-        height: 71
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe7e4e13f9ef89b44a65e25bbec6589b
-      internalID: 1406153315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_374
       rect:
         serializedVersion: 2
@@ -6171,27 +3857,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_381
-      rect:
-        serializedVersion: 2
-        x: 1869
-        y: 1745
-        width: 49
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 53eb43cca3071f04a9a62548a7e11d18
-      internalID: -212156309
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_382
       rect:
         serializedVersion: 2
@@ -6208,27 +3873,6 @@ TextureImporter:
       bones: []
       spriteID: e561068524a16f1488a0fdf2163af5f5
       internalID: 1286425453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_383
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 1685
-        width: 50
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 739076762301b594080af4bde43f9cb0
-      internalID: -1315098321
       vertices: []
       indices: 
       edges: []
@@ -6258,14 +3902,19 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_387
       rect:
         serializedVersion: 2
-        x: 1614
-        y: 1611
-        width: 524
-        height: 140
+        x: 1695
+        y: 1613
+        width: 443
+        height: 122
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -177, y: 51}
+        - {x: -174, y: -56}
+        - {x: -47, y: -70}
+        - {x: 262, y: 4}
+        - {x: 262, y: 50}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -6439,27 +4088,6 @@ TextureImporter:
       bones: []
       spriteID: 9ae3a7507f6e167419fe3458d24a9ab1
       internalID: -1228977342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_399
-      rect:
-        serializedVersion: 2
-        x: 2598
-        y: 1221
-        width: 169
-        height: 440
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0d47daf20b77b9c45948923286d71870
-      internalID: 2000644441
       vertices: []
       indices: 
       edges: []
@@ -6748,7 +4376,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -50, y: 69.5}
+        - {x: -157, y: 8.5}
+        - {x: -157, y: -28.5}
+        - {x: -71, y: -69.5}
+        - {x: 157, y: -69.5}
+        - {x: 157, y: 69.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -6790,27 +4424,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_420
-      rect:
-        serializedVersion: 2
-        x: 3123
-        y: 1443
-        width: 48
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5323bab7e799cf34eb9ba2fb6ab9e4e2
-      internalID: 540320575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_421
       rect:
         serializedVersion: 2
@@ -6827,48 +4440,6 @@ TextureImporter:
       bones: []
       spriteID: 9498f3e3b5bbe81499436e9275211e39
       internalID: -281702380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_422
-      rect:
-        serializedVersion: 2
-        x: 3819
-        y: 1495
-        width: 84
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b7c3b216d643d647aa425004f44e86c
-      internalID: -1504614250
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_423
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 1349
-        width: 24
-        height: 138
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85712859d50f02c4c8253ab2e026dda2
-      internalID: 880728967
       vertices: []
       indices: 
       edges: []
@@ -6922,59 +4493,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_427
-      rect:
-        serializedVersion: 2
-        x: 3756
-        y: 1263
-        width: 340
-        height: 228
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: efe6d78f133422148bfac790073dc90b
-      internalID: 1570272839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_428
-      rect:
-        serializedVersion: 2
-        x: 1177
-        y: 1253
-        width: 132
-        height: 182
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e7db30dfe840394783cad96621722ac
-      internalID: 1082859242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_429
       rect:
         serializedVersion: 2
         x: 1617
-        y: 941
+        y: 1089
         width: 298
-        height: 510
+        height: 362
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -149, y: -181}
+        - {x: 142, y: -181}
+        - {x: 139, y: 157}
+        - {x: -16, y: 159}
+        - {x: -48, y: 181}
+        - {x: -149, y: 181}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -7073,9 +4608,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1357
-        y: 959
+        y: 971
         width: 264
-        height: 444
+        height: 432
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7093,10 +4628,10 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_438
       rect:
         serializedVersion: 2
-        x: 3431
+        x: 3438
         y: 1197
-        width: 164
-        height: 204
+        width: 119
+        height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7153,90 +4688,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_441
-      rect:
-        serializedVersion: 2
-        x: 2151
-        y: 1337
-        width: 54
-        height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d54e5e9793936ef438b521eeefc994ef
-      internalID: -1333356071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_442
-      rect:
-        serializedVersion: 2
-        x: 2257
-        y: 1301
-        width: 52
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8575281ac21da864f902038251d010fb
-      internalID: -1287376246
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_443
-      rect:
-        serializedVersion: 2
-        x: 2353
-        y: 1315
-        width: 104
-        height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ee4715de7bf0142b559e9f6aa9353c
-      internalID: 813289205
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_444
-      rect:
-        serializedVersion: 2
-        x: 3173
-        y: 1299
-        width: 44
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1baf1835dcc313a42b8f917441483dc3
-      internalID: 1426584142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_445
       rect:
         serializedVersion: 2
@@ -7253,27 +4704,6 @@ TextureImporter:
       bones: []
       spriteID: fda02a2c44f6940498dda1b3a92e9ad4
       internalID: -2021601120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_446
-      rect:
-        serializedVersion: 2
-        x: 3285
-        y: 1301
-        width: 64
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9df9383fc690f184ea4bbb6456757b10
-      internalID: -1286492326
       vertices: []
       indices: 
       edges: []
@@ -7352,7 +4782,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -205, y: 77}
+        - {x: -245, y: 50}
+        - {x: -245, y: -45}
+        - {x: -154, y: -77}
+        - {x: 245, y: -77}
+        - {x: 245, y: 77}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -7489,48 +4925,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_458
-      rect:
-        serializedVersion: 2
-        x: 3943
-        y: 1105
-        width: 153
-        height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8ed8d035feb22ed478c015327d56380b
-      internalID: -180669413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_459
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 584
-        width: 499
-        height: 316
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff388726b0144e646b9490fceb73988e
-      internalID: -1953942936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_461
       rect:
         serializedVersion: 2
@@ -7541,7 +4935,24 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 208, y: 79}
+        - {x: 31, y: 65}
+        - {x: -31, y: 79}
+        - {x: -219, y: 53}
+        - {x: -250, y: 16}
+        - {x: -250, y: -42}
+        - {x: -245, y: -64}
+        - {x: -234, y: -69}
+        - {x: -230, y: -62}
+        - {x: -213, y: -73}
+        - {x: -204, y: -70}
+        - {x: -199, y: -42}
+        - {x: -156, y: -62}
+        - {x: -123, y: -79}
+        - {x: 213, y: -79}
+        - {x: 250, y: -22}
+        - {x: 250, y: 58}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -7577,9 +4988,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2863
-        y: 872
-        width: 455
-        height: 303
+        y: 940
+        width: 432
+        height: 235
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7618,10 +5029,10 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_465
       rect:
         serializedVersion: 2
-        x: 3445
-        y: 953
-        width: 278
-        height: 252
+        x: 3453
+        y: 963
+        width: 270
+        height: 237
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7702,10 +5113,10 @@ TextureImporter:
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_469
       rect:
         serializedVersion: 2
-        x: 3311
-        y: 815
-        width: 256
-        height: 268
+        x: 3321
+        y: 826
+        width: 237
+        height: 257
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -7762,27 +5173,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_474
-      rect:
-        serializedVersion: 2
-        x: 2017
-        y: 983
-        width: 48
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bdbc2fd35e23c24791b643b856b1ffa
-      internalID: -52767694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_476
       rect:
         serializedVersion: 2
@@ -7814,7 +5204,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -91, y: 78}
+        - {x: -91, y: 10}
+        - {x: -39, y: -78}
+        - {x: 91, y: -78}
+        - {x: 91, y: 78}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -7856,7 +5251,40 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 191, y: 87}
+        - {x: 189, y: 95}
+        - {x: 42, y: 105}
+        - {x: -52, y: 105}
+        - {x: -186, y: 87}
+        - {x: -191, y: 74}
+        - {x: -191, y: 9}
+        - {x: -159, y: -75}
+        - {x: -156, y: -81}
+        - {x: -146, y: -80}
+        - {x: -133, y: -64}
+        - {x: -129, y: -49}
+        - {x: -118, y: -61}
+        - {x: -112, y: -63}
+        - {x: -111, y: -60}
+        - {x: -111, y: -59}
+        - {x: -111, y: -60}
+        - {x: -106, y: -65}
+        - {x: -103, y: -66}
+        - {x: -95, y: -54}
+        - {x: -60, y: -86}
+        - {x: -29, y: -47}
+        - {x: -2, y: -86}
+        - {x: 18, y: -113}
+        - {x: 54, y: -113}
+        - {x: 163, y: -45}
+        - {x: 167, y: -33}
+        - {x: 191, y: -6}
+      - - {x: -114, y: 108}
+        - {x: -111, y: 110}
+        - {x: -112, y: 113}
+        - {x: -117, y: 113}
+        - {x: -117, y: 111}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -7925,48 +5353,6 @@ TextureImporter:
       bones: []
       spriteID: 5c83d52502a1e0c47b87b39dfd08254f
       internalID: -346287987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_486
-      rect:
-        serializedVersion: 2
-        x: 3923
-        y: 771
-        width: 48
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fbe50e7755579a48b2eb36bab064eea
-      internalID: -1210302864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_487
-      rect:
-        serializedVersion: 2
-        x: 1731
-        y: 763
-        width: 34
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a4337c11783fa54fa5c6a704b9a390f
-      internalID: 535906379
       vertices: []
       indices: 
       edges: []
@@ -8081,9 +5467,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3923
-        y: 645
-        width: 173
-        height: 204
+        y: 646
+        width: 135
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8119,27 +5505,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_498
-      rect:
-        serializedVersion: 2
-        x: 1067
-        y: 574
-        width: 178
-        height: 165
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 693b19fd76df18e49832b4344b9c1fc7
-      internalID: -2074512376
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_501
       rect:
         serializedVersion: 2
@@ -8150,7 +5515,13 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -29, y: 55}
+        - {x: -86, y: 4}
+        - {x: -86, y: -55}
+        - {x: 86, y: -55}
+        - {x: 86, y: 5}
+        - {x: 43, y: 55}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -8177,27 +5548,6 @@ TextureImporter:
       bones: []
       spriteID: 4b66e69574e641d4b982d166eb0c1e3e
       internalID: 1753205714
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_503
-      rect:
-        serializedVersion: 2
-        x: 3349
-        y: 653
-        width: 56
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6add2669a99c0c5429e3b5aa15abf76e
-      internalID: 792500783
       vertices: []
       indices: 
       edges: []
@@ -8245,27 +5595,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_508
-      rect:
-        serializedVersion: 2
-        x: 1893
-        y: 639
-        width: 56
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1938ee348d29f5c469a07901bc864e25
-      internalID: -1901914080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_509
       rect:
         serializedVersion: 2
@@ -8282,27 +5611,6 @@ TextureImporter:
       bones: []
       spriteID: 7e50347aa8297e943862bdf697e147de
       internalID: 1342420127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_510
-      rect:
-        serializedVersion: 2
-        x: 2661
-        y: 643
-        width: 160
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 274b12595a6f24f44ae2b0a87b69b234
-      internalID: 594800620
       vertices: []
       indices: 
       edges: []
@@ -8334,8 +5642,8 @@ TextureImporter:
         serializedVersion: 2
         x: 3235
         y: 515
-        width: 480
-        height: 146
+        width: 471
+        height: 137
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8375,9 +5683,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3869
-        y: 249
-        width: 227
-        height: 402
+        y: 259
+        width: 93
+        height: 392
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -8476,27 +5784,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_525
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 473
-        width: 35
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4691fef17644e154ca56c980086334af
-      internalID: 1812118207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_526
       rect:
         serializedVersion: 2
@@ -8581,27 +5868,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_531
-      rect:
-        serializedVersion: 2
-        x: 2843
-        y: 419
-        width: 146
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b8c7f1c7699a4f47a2e9a3988ec97c2
-      internalID: -1855485139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_532
       rect:
         serializedVersion: 2
@@ -8612,7 +5878,20 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 130, y: 182.5}
+        - {x: 63, y: 170.5}
+        - {x: -15, y: 145.5}
+        - {x: -93, y: 94.5}
+        - {x: -179, y: 86.5}
+        - {x: -228, y: 64.5}
+        - {x: -228, y: 17.5}
+        - {x: -137, y: -108.5}
+        - {x: -65, y: -182.5}
+        - {x: -11, y: -182.5}
+        - {x: 102, y: -86.5}
+        - {x: 228, y: 73.5}
+        - {x: 228, y: 182.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -8639,48 +5918,6 @@ TextureImporter:
       bones: []
       spriteID: 7c8b9c1996a87ae42bba82c7163825a5
       internalID: 1407751673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_536
-      rect:
-        serializedVersion: 2
-        x: 1723
-        y: 415
-        width: 60
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f736de3405817444ab1d41e145b17148
-      internalID: -525164403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_537
-      rect:
-        serializedVersion: 2
-        x: 2853
-        y: 397
-        width: 30
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 737299378a030a241aac366042c2a58c
-      internalID: -693588150
       vertices: []
       indices: 
       edges: []
@@ -8791,27 +6028,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_543
-      rect:
-        serializedVersion: 2
-        x: 2897
-        y: 383
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f4c5f1a265f2f840ac159d67465f7e4
-      internalID: 850178330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_545
       rect:
         serializedVersion: 2
@@ -8896,27 +6112,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_551
-      rect:
-        serializedVersion: 2
-        x: 421
-        y: 311
-        width: 80
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d5cb9a96817bfc4e87c2ccc876c81be
-      internalID: 784952739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_552
       rect:
         serializedVersion: 2
@@ -8933,27 +6128,6 @@ TextureImporter:
       bones: []
       spriteID: 104d83de465156c47aebe84bd7dabc91
       internalID: -545636553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_553
-      rect:
-        serializedVersion: 2
-        x: 2333
-        y: 0
-        width: 642
-        height: 333
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 646d71be2bd9efd4c9f73488c8511ca5
-      internalID: -513228836
       vertices: []
       indices: 
       edges: []
@@ -9053,7 +6227,22 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 40.5, y: 71}
+        - {x: -30.5, y: 71}
+        - {x: -53.5, y: 65}
+        - {x: -54.5, y: 59}
+        - {x: -54.5, y: -71}
+        - {x: 35.5, y: -71}
+        - {x: 64.5, y: -50}
+        - {x: 67.5, y: -39}
+        - {x: 67.5, y: 29}
+      - - {x: -67.5, y: -54}
+        - {x: -67.5, y: -58}
+        - {x: -64.5, y: -58}
+        - {x: -62.5, y: -55}
+        - {x: -62.5, y: -53}
+        - {x: -65.5, y: -52}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -9116,7 +6305,41 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: 80.5, y: -75}
+        - {x: 78.5, y: -75}
+        - {x: 164.5, y: -41}
+        - {x: 205.5, y: -42}
+        - {x: 245.5, y: -18}
+        - {x: 245.5, y: 80}
+        - {x: -246.5, y: 80}
+        - {x: -246.5, y: -56}
+        - {x: -231.5, y: -81}
+        - {x: -209.5, y: -85}
+        - {x: 124.5, y: -85}
+        - {x: 146.5, y: -82}
+        - {x: 100.5, y: -69}
+        - {x: 89.5, y: -71}
+        - {x: 81.5, y: -74}
+      - - {x: -22.5, y: -81}
+        - {x: -20.5, y: -83}
+        - {x: -17.5, y: -82}
+        - {x: -17.5, y: -79}
+        - {x: -19.5, y: -77}
+        - {x: -22.5, y: -78}
+      - - {x: -232.5, y: 85}
+        - {x: -232.5, y: 77}
+        - {x: -230.5, y: 75}
+        - {x: -228.5, y: 75}
+        - {x: -226.5, y: 77}
+        - {x: -226.5, y: 85}
+      - - {x: 99.5, y: 85}
+        - {x: 100.5, y: 82}
+        - {x: 149.5, y: 75}
+        - {x: 165.5, y: 75}
+        - {x: 210.5, y: 81}
+        - {x: 211.5, y: 84}
+        - {x: 211.5, y: 85}
       physicsShape: []
       tessellationDetail: 0
       bones: []
@@ -9164,27 +6387,6 @@ TextureImporter:
       bones: []
       spriteID: 64e38ba3c7c325440927c42c99766239
       internalID: -1369808245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_569
-      rect:
-        serializedVersion: 2
-        x: 1923
-        y: 0
-        width: 46
-        height: 201
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c5d4306cd3b6a0439c006cb9b781e3f
-      internalID: -1269329125
       vertices: []
       indices: 
       edges: []
@@ -9253,69 +6455,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_574
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 75
-        width: 68
-        height: 64
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a6ab8b2f05402e489c8720b8776d923
-      internalID: 886642975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_575
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 65
-        width: 72
-        height: 72
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 935b24e5770be3942b17b6c0c512007d
-      internalID: 934732836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_576
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 85
-        width: 61
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 753f84d4c8e207d4aa9ff2ead3e678bd
-      internalID: -1267715232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_578
       rect:
         serializedVersion: 2
@@ -9337,27 +6476,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_579
-      rect:
-        serializedVersion: 2
-        x: 1489
-        y: 0
-        width: 20
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1db5406568835c44a09fe288e3e7092
-      internalID: 947496779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_580
       rect:
         serializedVersion: 2
@@ -9374,111 +6492,6 @@ TextureImporter:
       bones: []
       spriteID: 3f1d518bdd5ef414b8306b03e4ffe70f
       internalID: -1410767173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_581
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 50
-        width: 35
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32c92950b5fe1334182418774ce58d0c
-      internalID: 1565299533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_583
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 5
-        width: 42
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 624cba78bd5180146a27d1c011bd7ec3
-      internalID: 1174104634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_584
-      rect:
-        serializedVersion: 2
-        x: 89
-        y: 0
-        width: 52
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93c3af98f490c704ab71d15faa16be32
-      internalID: 358696210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_585
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 39
-        width: 20
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 809520a341274f94b8180e6bc6841540
-      internalID: 497486583
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_586
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 1
-        width: 46
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cd0703dccc800a4ab92198285004852
-      internalID: 1055237560
       vertices: []
       indices: 
       edges: []
@@ -9521,90 +6534,6 @@ TextureImporter:
       bones: []
       spriteID: b9d44ac9b1c7c174db90a98639ebd7c1
       internalID: -1801773018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_589
-      rect:
-        serializedVersion: 2
-        x: 911
-        y: 1
-        width: 38
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b1b5b09e21e1ab4aaa60f4defb34628
-      internalID: -1224021391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_590
-      rect:
-        serializedVersion: 2
-        x: 1629
-        y: 0
-        width: 60
-        height: 59
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68f084d0745bed5468c0677d8af31845
-      internalID: 1797513343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_592
-      rect:
-        serializedVersion: 2
-        x: 949
-        y: 0
-        width: 48
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3acf73e4657ccf48a26a8f04713b800
-      internalID: 1645821758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_594
-      rect:
-        serializedVersion: 2
-        x: 821
-        y: 0
-        width: 86
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e500b020ca137c4a95c7c34a27524a1
-      internalID: -243235679
       vertices: []
       indices: 
       edges: []
@@ -9662,33 +6591,19 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -78.5, y: -131.5}
+        - {x: 77.5, y: -131.5}
+        - {x: 77.5, y: -65.5}
+        - {x: 40.5, y: 99.5}
+        - {x: -20.5, y: 131.5}
+        - {x: -46.5, y: 131.5}
+        - {x: -78.5, y: -9.5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: d1969bb61e2f04145a8fc3c26b10aab6
       internalID: -1198921032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_16
-      rect:
-        serializedVersion: 2
-        x: 3107
-        y: 2414
-        width: 141
-        height: 168
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7e27ec5eb54cba4f9a18b18360a46d2
-      internalID: -1407079994
       vertices: []
       indices: 
       edges: []
@@ -9807,7 +6722,7 @@ TextureImporter:
         width: 99
         height: 48
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9815,6 +6730,27 @@ TextureImporter:
       bones: []
       spriteID: f5b06103751ab2e49a62afb68b838899
       internalID: 1775174453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-4096x4096-DXT5-Crossroads-ec391fd5_47
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 1629
+        width: 92
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91713103cfd0ade4ba70c24bb0265b6a
+      internalID: 1996346230
       vertices: []
       indices: 
       edges: []

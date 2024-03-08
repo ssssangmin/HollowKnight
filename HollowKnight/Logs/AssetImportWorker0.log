@@ -15,7 +15,7 @@ C:/Users/SGA/Desktop/HollowKnight/HollowKnight
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50035
+65407
 Successfully changed project path to: C:/Users/SGA/Desktop/HollowKnight/HollowKnight
 C:/Users/SGA/Desktop/HollowKnight/HollowKnight
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/SGA/Desktop/HollowKnight/HollowKnight
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7904] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 3873684848 [EditorId] 3873684848 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COCPMKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11040] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 398509059 [EditorId] 398509059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COCPMKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7904] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 3873684848 [EditorId] 3873684848 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COCPMKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11040] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 398509059 [EditorId] 398509059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-COCPMKP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 84.76 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.12 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.20f1 (577897200b8b)
 [Subsystems] Discovering subsystems at path C:/Unity 2021.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -67,75 +67,75 @@ Initialize mono
 Mono path[0] = 'C:/Unity 2021.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Unity 2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Unity 2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56684
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Unity 2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002922 seconds.
+Registered in 0.003026 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 83.05 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 88.04 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.527 seconds
+- Completed reload, in  0.565 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (79ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (385ms)
-			LoadAssemblies (63ms)
+		EndReloadAssembly (402ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (86ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (101ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004629 seconds.
+Registered in 0.004562 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\HollowKnight\HollowKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\SGA\Desktop\HollowKnight\HollowKnight\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 82.35 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 87.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.987 seconds
+- Completed reload, in  1.041 seconds
 Domain Reload Profiling:
-	ReloadAssembly (987ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (1042ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (807ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (852ms)
 			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (203ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (448ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (478ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (82ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,12 +144,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4250 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (129.0 KB). Loaded Objects now: 4710.
 Memory consumption went from 162.0 MB to 161.9 MB.
-Total: 2.942000 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.201600 ms MarkObjects: 2.372000 ms  DeleteObjects: 0.088300 ms)
+Total: 3.258100 ms (FindLiveObjects: 0.300500 ms CreateObjectMapping: 0.211600 ms MarkObjects: 2.669600 ms  DeleteObjects: 0.075700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,205 +163,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 677.190148 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x1024-DXT5-Crossroads_Tollbooth-79116fa2.png
-  artifactKey: Guid(6f266c07a30a27b4d9a6d3cdb70513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x1024-DXT5-Crossroads_Tollbooth-79116fa2.png using Guid(6f266c07a30a27b4d9a6d3cdb70513e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c5b78d40d77483ef516c2598613a18') in 0.050533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.374117 seconds.
-  path: Assets/Sprites/Map/Town/Town_BG_0000_05_02.png
-  artifactKey: Guid(b7f847ab93066d74184ca0944a1d224c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Town/Town_BG_0000_05_02.png using Guid(b7f847ab93066d74184ca0944a1d224c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9818c2f7c34a3fef3ffe0faf2104e970') in 0.039108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.765340 seconds.
-  path: Assets/Sprites/Map/Town/Town_BG_0003_03b.png
-  artifactKey: Guid(954c2f9f8fd25a549b9dce192c6fc045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Town/Town_BG_0003_03b.png using Guid(954c2f9f8fd25a549b9dce192c6fc045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037b8ba913b2b689e99a0a5dee738c8b') in 0.008842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.246598 seconds.
-  path: Assets/Sprites/Map/Town/town_buildings_left_0000_a.png
-  artifactKey: Guid(a88e3319a5859414087ddac06042bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Town/town_buildings_left_0000_a.png using Guid(a88e3319a5859414087ddac06042bfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53081327543f47b1a6a1aac8927141d') in 0.011455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 38.930540 seconds.
-  path: Assets/Sprites/Map/Town/town_layered_0035_02.png
-  artifactKey: Guid(5b3b5b905b1122a428442ae86ac697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Town/town_layered_0035_02.png using Guid(5b3b5b905b1122a428442ae86ac697c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53501ae6029ce435d78756660cfc2603') in 0.007904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 392.535798 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0d8aef23fe3043efb96f6fc16d418c') in 0.013046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.078117 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae8d65009ece1ef27af3610f8660e4b0') in 0.168820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.742659 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef2257d36d8e21ed93dd8114ff7cae42') in 0.117597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.851157 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69635de35e589c2ac21698745e459591') in 0.121303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.318079 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e9c1a0cae0dc658326668894baec16') in 0.117206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.534242 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb47d911b5b7de3a7c1842c39d0dc94') in 0.119458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.045163 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48072a080fe60e43909588b51592c97') in 0.133704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.236837 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea51802b571b887c7716256152223169') in 0.120588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.235806 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225debf87ec0a6dc4778b90cbf3a53d2') in 0.122546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 49.861342 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09852f913753cb969f4516666804145') in 0.122675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.318287 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '607cc6c7f86072bbacaed53eee6b2787') in 0.120613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 85.221168 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a259dc0a033fb077e6ce7e7aad73fc') in 0.115204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.855062 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0749feebd7b76af5299034849ef9b1') in 0.113162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.512816 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d783a74eee8775b2bc6225ed52ef9d') in 0.139702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.225235 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png
-  artifactKey: Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-2048x2048-DXT5-Crossroads_Eggs-aa4bd684.png using Guid(df5b24459aef1d74098a1290d61c0e0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875b307918a8ea35462e855c647ce9a2') in 0.135920 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 112.194408 seconds.
+  Time since last request: 1614.505553 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d3cae3838384cc0868db1a3f827d7d6') in 0.951805 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a651a9dbef7c729f475ed725996b140c') in 1.403271 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 53.379095 seconds.
+  Time since last request: 395.518014 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc9e6b132a81708e77b2acd1e4bc4d4') in 0.723316 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3d68831120ddd1c5c6e12c0c95987d') in 1.322796 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.235959 seconds.
+  Time since last request: 699.479028 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d76a1a9d31af349d94d9a740cf12f27') in 0.778157 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912a1309fa75c8ea11e9ec1b89d730b4') in 1.151844 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.726884 seconds.
+  Time since last request: 4889.167378 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fa6654c521a1b8cb3d2051bc1d1880') in 0.808902 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f9be379c80bf59f1f8937a0931c682') in 1.040323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 689.575423 seconds.
+  Time since last request: 493.524018 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b188e1b50660be2cca1c0c83046aa') in 1.624372 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3220f47994c448e5ae531831a1336fcb') in 1.269255 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2214.649434 seconds.
+  Time since last request: 235.161354 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e81b0a8039e14b8352960c389273dd') in 1.287141 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213b86785c6b91180b95c240f028cae4') in 0.972734 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.034630 seconds.
+  Time since last request: 246.796443 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930977a27e0d07ef227803cc42a3c93c') in 1.269049 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c6fb1e7526c656eee5ea3ed9251e23') in 1.032213 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 590.944714 seconds.
+  Time since last request: 87.691249 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dccc2cee2b2af3ed26706d4f597370b') in 1.208250 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33fe237e5576f0825f05c2741ea2e42b') in 1.325649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 54.627512 seconds.
+  Time since last request: 79.214686 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18467a088f7938b45c3f46a5a522dab') in 1.358283 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'babb18dc359ec55c8c007c000d40afaa') in 1.060380 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 209.940035 seconds.
+  Time since last request: 786.989119 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f2db8fb34e11b63e0c5447e9621d14') in 1.151930 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11f3a42a4c49782cf8591eb67da4a53') in 0.869347 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 475.982944 seconds.
+  Time since last request: 64.026722 seconds.
   path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
   artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9161230fe48af1e7bd96a9aec0904148') in 1.172651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2273.321560 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
-  artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf5434abd185ce732068fd6413770af9') in 1.109048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 941.849101 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
-  artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f55d0254117f28b3cdab5d8bd2cf0b') in 1.153613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 118.818142 seconds.
-  path: Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png
-  artifactKey: Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26930ccab54ed86fc724ab52758922f0') in 1.169745 seconds 
+Start importing Assets/Sprites/Map/Crossroads/sactx-0-4096x4096-DXT5-Crossroads-ec391fd5.png using Guid(94d913b16e8050e40a80e667c7b59028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca0a6c0a6bafa38a970fcd3b5435262') in 0.954244 seconds 
