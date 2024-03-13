@@ -24,6 +24,8 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
     private Animator anim;
     private Rigidbody2D rb;
 
+    private float delayTime;
+
     Vector2 wayPoint;
 
     private Transform player;
@@ -32,6 +34,8 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Start()
     {
+        delayTime = 0;
+
         e_State = State.Idle;
 
         currentHealth = maxHealth;
@@ -67,8 +71,20 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Idle()
     {
+        rb.velocity = new Vector2(0, rb.velocity.y);
+
         // Move 전환 조건
-        StartCoroutine(MoveTransition());
+        float delayToMove = 1.0f;
+        delayTime += Time.deltaTime;
+        
+        if (delayTime > delayToMove)
+        {
+            delayTime = 0;
+            Debug.Log("1");
+            e_State = State.Move;
+            anim.SetTrigger("Walk");
+        }
+
 
         // Attack 전환 조건
         var dis = Vector2.Distance(transform.position, player.position);
@@ -77,32 +93,30 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         {
             e_State = State.Attack;
             anim.SetTrigger("Attack");
-        }
-    }
-
-    IEnumerator MoveTransition()
-    {
-        yield return new WaitForSeconds(1.0f);
-
-        if (e_State == State.Idle)
-        {
-            e_State = State.Move;
-            anim.SetTrigger("Walk");
-        }
-        else
-        {
-            StopCoroutine(IdleTransition());
         }
     }
 
     private void Move()
     {
         // Turn 전환 조건
-        StartCoroutine(IdleTransition());
+        float delayToTurn = 3.0f;
+        delayTime += Time.deltaTime;
 
-        // 24/3/12
-        // 속도가 점점 올라가지 않게 조정 필요.
-        rb.velocity = new Vector2(transform.position.x + transform.localScale.x * speed, rb.velocity.y);
+        if (delayTime > delayToTurn)
+        {
+            delayTime = 0;
+            e_State = State.Turn;
+            anim.SetTrigger("WalkToIdle");
+        }
+
+        if (transform.localScale.x > 0)
+        {
+            rb.velocity = new Vector2(speed, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(-speed, rb.velocity.y);
+        }
 
         // Attack 전환 조건
         var dis = Vector2.Distance(transform.position, player.position);
@@ -114,53 +128,19 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         }
     }
 
-    IEnumerator IdleTransition()
-    {
-        yield return new WaitForSeconds(3.0f);
-
-        if (e_State == State.Move)
-        {
-            e_State = State.Turn;
-            anim.SetTrigger("WalkToIdle");
-        }
-        else
-        {
-            StopCoroutine(MoveTransition());
-        }
-    }
-
+    // flip
     private void Turn()
     {
-        // 오른쪽 방향
-        if (transform.localScale.x > 0)
-        {
-            transform.localScale = new Vector3(-1, 0, 0);
-        }
-        // 왼쪽 방향
-        else
-        {
-            transform.localScale = new Vector3(1, 0, 0);
-        }
+        Vector3 localScale = transform.localScale;
+        localScale.x *= -1;
+        transform.localScale = localScale;
 
-        //if (transform.rotation.y < 0f)
-        //{
-        //    Vector3 rotate = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
-        //    transform.rotation = Quaternion.Euler(rotate);
-        //    e_State = State.Idle;
-        //    Debug.Log(e_State);
-        //}
-        //else if (transform.rotation.y >= 0f)
-        //{
-        //    Vector3 rotate = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
-        //    transform.rotation = Quaternion.Euler(rotate);
-        //    e_State = State.Idle;
-        //    Debug.Log(e_State);
-        //}
+        e_State = State.Idle;
     }
 
     private void Attack()
     {
-        anim.SetTrigger("Attack");
+        Debug.Log("1");
 
         // Idle 전환 조건
         var dis = Vector2.Distance(transform.position, player.position);
