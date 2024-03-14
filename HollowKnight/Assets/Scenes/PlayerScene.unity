@@ -274,6 +274,7 @@ MonoBehaviour:
   maxHealth: 3
   speed: 1
   playerDistance: 5
+  isInRange: 0
 --- !u!50 &217075536
 Rigidbody2D:
   serializedVersion: 4
@@ -302,6 +303,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3446248053589244335, guid: 5587e6a8b7e3a904c985ee64ff03da27, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6069237509701259825, guid: 5587e6a8b7e3a904c985ee64ff03da27, type: 3}
       propertyPath: m_Name
       value: Player

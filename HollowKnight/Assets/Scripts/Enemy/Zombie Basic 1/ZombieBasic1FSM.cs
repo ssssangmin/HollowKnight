@@ -32,6 +32,8 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     [SerializeField] private float playerDistance = 5.0f;
 
+    [HideInInspector] public bool isInRange;
+
     private void Start()
     {
         delayTime = 0;
@@ -60,7 +62,7 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
                 Turn();
                 break;
             case State.Attack:
-                Attack();
+                //Attack();
                 break;
             case State.Damaged:
                 break;
@@ -80,7 +82,6 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
         if (delayTime > delayToMove)
         {
             delayTime = 0;
-            Debug.Log("1");
             e_State = State.Move;
             anim.SetTrigger("Walk");
         }
@@ -91,8 +92,10 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
         if (dis < playerDistance)
         {
+            Debug.Log("2");
             e_State = State.Attack;
             anim.SetTrigger("Attack");
+            Attack();
         }
     }
 
@@ -123,8 +126,10 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
         if (dis < playerDistance)
         {
+            Debug.Log("1");
             e_State = State.Attack;
             anim.SetTrigger("Attack");
+            Attack();
         }
     }
 
@@ -140,15 +145,47 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Attack()
     {
-        Debug.Log("1");
+        Debug.Log("3");
+        rb.velocity = new Vector2(0, rb.velocity.y);
 
-        // Idle 전환 조건
-        var dis = Vector2.Distance(transform.position, player.position);
+        float pPos = player.position.x;
+        float ePos = transform.position.x;
 
-        if (dis > playerDistance)
+        // 적의 오른쪽에 플레이어가 있을 때
+        if (pPos - ePos > 0)
         {
-            e_State = State.Idle;
-            anim.SetTrigger("AttackToIdle");
+            // 오른쪽을 보고 있다면
+            if (transform.localScale == new Vector3(-1, 1, 1))
+            {
+                Debug.Log("right");
+                Turn();
+            }
+            rb.velocity = new Vector2(pPos, rb.velocity.y);
+        }
+        // 적의 왼쪽에 플레이어가 있을 때
+        else
+        {
+            // 오른쪽을 보고 있다면
+            if (transform.localScale == new Vector3(1, 1, 1))
+            {
+                Debug.Log("left");
+                Turn();
+            }
+
+            rb.velocity = new Vector2(pPos, rb.velocity.y);
+
+            // Turn 전환 조건
+            float delayToTurn = 1.0f;
+            delayTime += Time.deltaTime;
+
+            if (delayTime > delayToTurn)
+            {
+                delayTime = 0;
+                e_State = State.Idle;
+                anim.SetTrigger("AttackToIdle");
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            }
+
         }
     }
 
