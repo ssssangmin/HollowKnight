@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Input\Controls.cs" />
     <Compile Include="Assets\Scripts\Enemy\Zombie Basic 1\ZombieBasic1FSM.cs" />
+    <Compile Include="Assets\Scripts\UI\UIAnimation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_on(12)\Hornet Boss Cln_aaaaa_info.txt" />
@@ -94,6 +95,7 @@
     <None Include="Assets\Sprites\Player\PlayerHit\Knight_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\air_dash_effects(30)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_recover(12)\Hornet Boss Cln_aaaaa_info.txt" />
+    <None Include="Assets\Sprites\UI\HUD_frame\HUD Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\stun_air(12)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_recover(18)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\Attack_air_dash_recover(12)\Hornet Boss Cln_aaaaa_info.txt" />
@@ -108,6 +110,7 @@
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\ground_dash_on(20)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Player\PlayerEffects\SlashEffects\Slash2\Knight_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_needle_thread(20)\Hornet Boss Cln_aaaaa_info.txt" />
+    <None Include="Assets\Sprites\UI\Health_refill\HUD Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_ball_on(20)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_ready(12)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\HitEffects\EnemyHitEffects_aaaaa_info.txt" />
