@@ -9,7 +9,7 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
     {
         Idle,
         Move,
-        Turn,
+        MoveToAttack,
         Attack,
         Damaged,
         Die
@@ -19,9 +19,8 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     [SerializeField] private float maxHealth = 3.0f;
     [SerializeField] private float speed = 0.2f;
-    [SerializeField] private float attackCooldown = 1.5f;
 
-    private float currentHealth;
+    [SerializeField] private float currentHealth;
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -38,6 +37,11 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private float attackTimer = 0f;
 
+    private Vector2 startAttackPos;
+    private Vector2 endAttackPos;
+
+    private Transform movePoint;
+
     private void Start()
     {
         delayTime = 0;
@@ -48,27 +52,37 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
         player = GameObject.FindGameObjectWithTag("Player").transform;
 
+        movePoint = GameObject.FindGameObjectWithTag("MovePoint").transform;
+
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        InvokeRepeating(nameof(ChangeState), 0f, 2f); // 2초마다 상태 전환
+    }
+
+    private void ChangeState()
+    {
+        if (e_State == State.Idle)
+        {
+            e_State = State.Move;
+            anim.SetTrigger("Walk");
+        }
+        else if (e_State == State.Move)
+        {
+            e_State = State.Idle;
+            anim.SetTrigger("Idle");
+        }
     }
 
     private void Update()
     {
-        // 플레이어와의 거리 계산
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-        // 공격 쿨타임 타이머
-        attackTimer -= Time.deltaTime;
-
-        // 플레이어와의 거리에 따른 상태 전환
-        if (distanceToPlayer <= playerDistance && e_State != State.Die)
+        if (e_State == State.Idle || e_State == State.Move)
         {
-            e_State = State.Attack;
-            anim.SetTrigger("Attack");
-        }
-        else if (e_State != State.Die)
-        {
-            e_State = State.Idle;
+            float distanceToPlayer = Vector2.Distance(transform.position, new Vector2(player.position.x, 0));
+            if (distanceToPlayer <= playerDistance)
+            {
+                CancelInvoke(nameof(ChangeState));
+                e_State = State.MoveToAttack;
+            }
         }
 
         switch (e_State)
@@ -79,15 +93,11 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
             case State.Move:
                 Move();
                 break;
-            case State.Turn:
-                Turn();
+            case State.MoveToAttack:
+                MoveToAttack();
                 break;
             case State.Attack:
-                if (attackTimer <= 0f)
-                {
-                    Attack();
-                    attackTimer = attackCooldown;
-                }
+                Attack();
                 break;
             case State.Damaged:
                 break;
@@ -96,127 +106,108 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
             default:
                 break;
         }
-
-        if (e_State == State.Attack)
-        {
-            RotateTowardsPlayer();
-        }
     }
 
     private void Idle()
     {
-        rb.velocity = new Vector2(0, rb.velocity.y);
-
-        // Move 전환 조건
-        float delayToMove = 1.0f;
-        delayTime += Time.deltaTime;
-        
-        if (delayTime > delayToMove)
-        {
-            delayTime = 0;
-            e_State = State.Move;
-            anim.SetTrigger("Walk");
-        }
+        rb.velocity = Vector2.zero;
     }
 
     private void Move()
     {
-        rb.velocity = movementDirection * speed;
-
-        // Turn 전환 조건
-        float delayToTurn = 3.0f;
-        delayTime += Time.deltaTime;
-
-        if (delayTime > delayToTurn)
-        {
-            delayTime = 0;
-            e_State = State.Turn;
-            anim.SetTrigger("WalkToIdle");
-        }
-
-        if (movementDirection == Vector2.left)
-        {
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
-        else
+        Vector2 direction = movementDirection.normalized;
+        rb.velocity = direction * speed;
+        if (movementDirection.x < 0)
         {
             transform.localScale = new Vector3(1, 1, 1);
         }
+        else
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
     }
 
-    // flip
-    private void Turn()
+    private void MoveToAttack()
     {
-        Vector3 localScale = transform.localScale;
-        localScale.x *= -1;
-        transform.localScale = localScale;
+        rb.velocity = Vector2.zero;
+        startAttackPos = new Vector2(transform.position.x, 0);
+        endAttackPos = new Vector2(player.position.x, 0);
+        float pPos = player.position.x;
+        float ePos = transform.position.x;
 
-        e_State = State.Idle;
+        // 적의 오른쪽에 플레이어가 있을 때
+        if (pPos - ePos < 0)
+        {
+            // 오른쪽을 보고 있다면
+            if (transform.localScale == new Vector3(-1, 1, 1))
+            {
+                Debug.Log("right");
+                FlipSprite();
+            }
+        }
+        // 적의 왼쪽에 플레이어가 있을 때
+        else
+        {
+            // 오른쪽을 보고 있다면
+            if (transform.localScale == new Vector3(1, 1, 1))
+            {
+                Debug.Log("left");
+                FlipSprite();
+            }
+        }
+        anim.SetTrigger("Attack");
+        e_State = State.Attack;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("MovePoint"))
+        {
+            // 방향 전환
+            movementDirection *= -1;
+        }
+    }
+
+    void FlipSprite()
+    {
+        Vector3 scale = transform.localScale;
+
+        scale.x *= -1;
+
+        transform.localScale = scale;
     }
 
     private void Attack()
     {
-        float pPos = player.position.x;
-        float ePos = transform.position.x;
-
-        //// 적의 오른쪽에 플레이어가 있을 때
-        //if (pPos - ePos > 0)
-        //{
-        //    // 오른쪽을 보고 있다면
-        //    if (transform.localScale == new Vector3(-1, 1, 1))
-        //    {
-        //        Debug.Log("right");
-        //        Turn();
-        //    }
-        //    rb.velocity = new Vector2(pPos, rb.velocity.y);
-        //}
-        //// 적의 왼쪽에 플레이어가 있을 때
-        //else
-        //{
-        //    // 오른쪽을 보고 있다면
-        //    if (transform.localScale == new Vector3(1, 1, 1))
-        //    {
-        //        Debug.Log("left");
-        //        Turn();
-        //    }
-
-        //    rb.velocity = new Vector2(pPos, rb.velocity.y);
-
-        //    // Turn 전환 조건
-        //    float delayToTurn = 1.0f;
-        //    delayTime += Time.deltaTime;
-
-        //    if (delayTime > delayToTurn)
-        //    {
-        //        delayTime = 0;
-        //        e_State = State.Idle;
-        //        anim.SetTrigger("AttackToIdle");
-        //        rb.velocity = new Vector2(0, rb.velocity.y);
-        //    }
-
-        //}
-
-        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        Vector2 directionToPlayer = (endAttackPos - startAttackPos).normalized;
         rb.velocity = directionToPlayer * speed * 3f;
-    }
-
-    public void RotateTowardsPlayer()
-    {
-        Vector3 direction = player.position - transform.position;
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
+        if (Vector2.Distance(new Vector2(transform.position.x, 0), endAttackPos) < 0.05)
+        {
+            rb.velocity = Vector2.zero;
+            anim.SetTrigger("Idle");
+            e_State = State.Idle;
+            movePoint.position = transform.position;
+            InvokeRepeating(nameof(ChangeState), 0f, 2f);
+        }
     }
 
     public void Damage(float damageAmount)
     {
         currentHealth -= damageAmount;
-
-        anim.SetTrigger("Attack");
-
+        // 잠시 경직
+        Invoke(nameof(Stiffness), 0.5f);
+        
         if (currentHealth <= 0)
         {
             Die();
         }
+    }
+
+    public void Stiffness()
+    {
+        rb.velocity = Vector2.zero;
+        anim.SetTrigger("Attack");
+        e_State = State.Attack;
     }
 
     private void Die()

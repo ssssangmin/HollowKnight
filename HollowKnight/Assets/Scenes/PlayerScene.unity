@@ -137,7 +137,6 @@ GameObject:
   - component: {fileID: 217075530}
   - component: {fileID: 217075536}
   - component: {fileID: 217075535}
-  - component: {fileID: 217075537}
   m_Layer: 7
   m_Name: Zombie Basic 1_idle0000
   m_TagString: Untagged
@@ -214,7 +213,7 @@ SpriteRenderer:
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: fc6d7cd69f38f5744ad4f99992e0592c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.04, y: 1.27}
@@ -266,14 +265,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 217075529}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e16b1816c9760c42a7ad667c4a26e54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
+  maxHealth: 10
   speed: 1
-  attackCooldown: 1.5
+  currentHealth: 0
   playerDistance: 5
   isInRange: 0
 --- !u!50 &217075536
@@ -297,23 +296,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &217075537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 217075529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b0c801c0f1359441902e5036331cc4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 3
-  moveSpeed: 1
-  attackSpeedMultiplier: 1.5
-  attackRange: 5
-  attackDistance: 3
 --- !u!1001 &616120588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -772,7 +754,7 @@ GameObject:
   - component: {fileID: 1354567513}
   - component: {fileID: 1354567512}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: MovePoint(Enemy)
   m_TagString: MovePoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -794,8 +776,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 6.5944014, y: 3.3763723}
-  - {x: 6.6096263, y: -2.8940337}
+  - {x: 2.7020578, y: 2.7883203}
+  - {x: 2.68928, y: -0.96186304}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -816,8 +798,8 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.5, y: 3.0749106}
-  - {x: -0.4847753, y: -2.8940337}
+  - {x: -3.020223, y: 2.8228884}
+  - {x: -3.0049982, y: -1.2418876}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -830,7 +812,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354567511}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.5977771, y: -0.3510185, z: -10.31902}
+  m_LocalPosition: {x: 5.36, y: -1.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

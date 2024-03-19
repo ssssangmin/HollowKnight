@@ -15,6 +15,8 @@ public class EnemyController : MonoBehaviour, IDamageable
     private Vector2 movementDirection = Vector2.left; // 방향
     private bool isAttacking = false;
 
+    private GameObject movePoint;
+
     enum EnemyState
     {
         Idle,
@@ -27,6 +29,7 @@ public class EnemyController : MonoBehaviour, IDamageable
 
     void Start()
     {
+        movePoint = GameObject.FindGameObjectWithTag("MovePoint");
         currentHealth = maxHealth;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
@@ -74,14 +77,14 @@ public class EnemyController : MonoBehaviour, IDamageable
 
             if (currentState != EnemyState.Attack)
             {
-                RotateTowardsPlayer();
-
                 // 플레이어와의 거리
                 float distanceToPlayer = Vector2.Distance(transform.position, player.position);
                 if (distanceToPlayer <= 5.0f)
                 {
+                    movePoint.transform.position = transform.position;
                     // 플레이어로 돌진
                     ChargeTowardsPlayer();
+                    currentState = EnemyState.Idle;
                 }
             }
         }
@@ -111,6 +114,7 @@ public class EnemyController : MonoBehaviour, IDamageable
         animator.SetTrigger("Attack");
         Vector2 directionToPlayer = (player.position - transform.position).normalized;
         rb.velocity = directionToPlayer * moveSpeed * 1.5f;
+        RotateTowardsPlayer();
     }
 
     void Move()
@@ -164,8 +168,11 @@ public class EnemyController : MonoBehaviour, IDamageable
         }
     }
 
+    // Die 프로세스 스크립트로 따로 빼놓기
     public void Die()
     {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        rb.AddForce(directionToPlayer * moveSpeed);
         currentState = EnemyState.Die;
     }
 }
