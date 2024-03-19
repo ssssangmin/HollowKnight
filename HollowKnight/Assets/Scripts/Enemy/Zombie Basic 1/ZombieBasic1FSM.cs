@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ZombieBasic1FSM : MonoBehaviour, IDamageable
@@ -18,6 +19,7 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     [SerializeField] private float maxHealth = 3.0f;
     [SerializeField] private float speed = 0.2f;
+    [SerializeField] private float attackCooldown = 1.5f;
 
     private float currentHealth;
 
@@ -26,13 +28,15 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private float delayTime;
 
-    Vector2 wayPoint;
-
     private Transform player;
 
     [SerializeField] private float playerDistance = 5.0f;
 
     [HideInInspector] public bool isInRange;
+
+    private Vector2 movementDirection = Vector2.left;
+
+    private float attackTimer = 0f;
 
     private void Start()
     {
@@ -50,6 +54,23 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Update()
     {
+        // 플레이어와의 거리 계산
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+        // 공격 쿨타임 타이머
+        attackTimer -= Time.deltaTime;
+
+        // 플레이어와의 거리에 따른 상태 전환
+        if (distanceToPlayer <= playerDistance && e_State != State.Die)
+        {
+            e_State = State.Attack;
+            anim.SetTrigger("Attack");
+        }
+        else if (e_State != State.Die)
+        {
+            e_State = State.Idle;
+        }
+
         switch (e_State)
         {
             case State.Idle:
@@ -62,12 +83,23 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
                 Turn();
                 break;
             case State.Attack:
-                //Attack();
+                if (attackTimer <= 0f)
+                {
+                    Attack();
+                    attackTimer = attackCooldown;
+                }
                 break;
             case State.Damaged:
                 break;
             case State.Die:
                 break;
+            default:
+                break;
+        }
+
+        if (e_State == State.Attack)
+        {
+            RotateTowardsPlayer();
         }
     }
 
@@ -85,22 +117,12 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
             e_State = State.Move;
             anim.SetTrigger("Walk");
         }
-
-
-        // Attack 전환 조건
-        var dis = Vector2.Distance(transform.position, player.position);
-
-        if (dis < playerDistance)
-        {
-            Debug.Log("2");
-            e_State = State.Attack;
-            anim.SetTrigger("Attack");
-            Attack();
-        }
     }
 
     private void Move()
     {
+        rb.velocity = movementDirection * speed;
+
         // Turn 전환 조건
         float delayToTurn = 3.0f;
         delayTime += Time.deltaTime;
@@ -112,24 +134,13 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
             anim.SetTrigger("WalkToIdle");
         }
 
-        if (transform.localScale.x > 0)
+        if (movementDirection == Vector2.left)
         {
-            rb.velocity = new Vector2(speed, rb.velocity.y);
+            transform.localScale = new Vector3(-1, 1, 1);
         }
         else
         {
-            rb.velocity = new Vector2(-speed, rb.velocity.y);
-        }
-
-        // Attack 전환 조건
-        var dis = Vector2.Distance(transform.position, player.position);
-
-        if (dis < playerDistance)
-        {
-            Debug.Log("1");
-            e_State = State.Attack;
-            anim.SetTrigger("Attack");
-            Attack();
+            transform.localScale = new Vector3(1, 1, 1);
         }
     }
 
@@ -145,48 +156,55 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Attack()
     {
-        Debug.Log("3");
-        rb.velocity = new Vector2(0, rb.velocity.y);
-
         float pPos = player.position.x;
         float ePos = transform.position.x;
 
-        // 적의 오른쪽에 플레이어가 있을 때
-        if (pPos - ePos > 0)
-        {
-            // 오른쪽을 보고 있다면
-            if (transform.localScale == new Vector3(-1, 1, 1))
-            {
-                Debug.Log("right");
-                Turn();
-            }
-            rb.velocity = new Vector2(pPos, rb.velocity.y);
-        }
-        // 적의 왼쪽에 플레이어가 있을 때
-        else
-        {
-            // 오른쪽을 보고 있다면
-            if (transform.localScale == new Vector3(1, 1, 1))
-            {
-                Debug.Log("left");
-                Turn();
-            }
+        //// 적의 오른쪽에 플레이어가 있을 때
+        //if (pPos - ePos > 0)
+        //{
+        //    // 오른쪽을 보고 있다면
+        //    if (transform.localScale == new Vector3(-1, 1, 1))
+        //    {
+        //        Debug.Log("right");
+        //        Turn();
+        //    }
+        //    rb.velocity = new Vector2(pPos, rb.velocity.y);
+        //}
+        //// 적의 왼쪽에 플레이어가 있을 때
+        //else
+        //{
+        //    // 오른쪽을 보고 있다면
+        //    if (transform.localScale == new Vector3(1, 1, 1))
+        //    {
+        //        Debug.Log("left");
+        //        Turn();
+        //    }
 
-            rb.velocity = new Vector2(pPos, rb.velocity.y);
+        //    rb.velocity = new Vector2(pPos, rb.velocity.y);
 
-            // Turn 전환 조건
-            float delayToTurn = 1.0f;
-            delayTime += Time.deltaTime;
+        //    // Turn 전환 조건
+        //    float delayToTurn = 1.0f;
+        //    delayTime += Time.deltaTime;
 
-            if (delayTime > delayToTurn)
-            {
-                delayTime = 0;
-                e_State = State.Idle;
-                anim.SetTrigger("AttackToIdle");
-                rb.velocity = new Vector2(0, rb.velocity.y);
-            }
+        //    if (delayTime > delayToTurn)
+        //    {
+        //        delayTime = 0;
+        //        e_State = State.Idle;
+        //        anim.SetTrigger("AttackToIdle");
+        //        rb.velocity = new Vector2(0, rb.velocity.y);
+        //    }
 
-        }
+        //}
+
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        rb.velocity = directionToPlayer * speed * 3f;
+    }
+
+    public void RotateTowardsPlayer()
+    {
+        Vector3 direction = player.position - transform.position;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.AngleAxis(angle, Vector3.back);
     }
 
     public void Damage(float damageAmount)
