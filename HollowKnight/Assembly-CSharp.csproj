@@ -112,6 +112,7 @@
     <None Include="Assets\Sprites\Player\PlayerEffects\SlashEffects\Slash2\Knight_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_needle_thread(20)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\UI\Health_refill\HUD Cln_aaaaa_info.txt" />
+    <None Include="Assets\Sprites\UI\Fill_Gauge\HUD Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_ball_on(20)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_ready(12)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\HitEffects\EnemyHitEffects_aaaaa_info.txt" />
