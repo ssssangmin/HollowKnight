@@ -1,0 +1,29 @@
+version: 2
+type: animation
+name: Top Appear
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 22
+0	Top Appear_fleur_top0000_000.png
+1	Top Appear_fleur_top0001_001.png
+2	Top Appear_fleur_top0002_002.png
+3	Top Appear_fleur_top0003_003.png
+4	Top Appear_fleur_top0004_004.png
+5	Top Appear_fleur_top0005_005.png
+6	Top Appear_fleur_top0006_006.png
+7	Top Appear_fleur_top0007_007.png
+8	Top Appear_fleur_top0008_008.png
+9	Top Appear_fleur_top0009_009.png
+10	Top Appear_fleur_top0010_010.png
+11	Top Appear_fleur_top0011_011.png
+12	Top Appear_fleur_top0012_012.png
+13	Top Appear_fleur_top0013_013.png
+14	Top Appear_fleur_top0014_014.png
+15	Top Appear_fleur_top0015_015.png
+16	Top Appear_fleur_top0016_016.png
+17	Top Appear_fleur_top0017_017.png
+18	Top Appear_fleur_top0018_018.png
+19	Top Appear_fleur_top0019_019.png
+20	Top Appear_fleur_top0020_020.png
+21	Top Appear_fleur_top0021_021.png

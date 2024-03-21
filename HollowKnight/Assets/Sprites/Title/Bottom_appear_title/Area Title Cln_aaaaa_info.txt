@@ -1,0 +1,29 @@
+version: 2
+type: animation
+name: Bottom Appear
+consistent_sprite_size: false
+enable_borders: false
+use_sprite_name: true
+sprites: 22
+0	Bottom Appear_fleur_bottom0000_000.png
+1	Bottom Appear_fleur_bottom0001_001.png
+2	Bottom Appear_fleur_bottom0002_002.png
+3	Bottom Appear_fleur_bottom0003_003.png
+4	Bottom Appear_fleur_bottom0004_004.png
+5	Bottom Appear_fleur_bottom0005_005.png
+6	Bottom Appear_fleur_bottom0006_006.png
+7	Bottom Appear_fleur_bottom0007_007.png
+8	Bottom Appear_fleur_bottom0008_008.png
+9	Bottom Appear_fleur_bottom0009_009.png
+10	Bottom Appear_fleur_bottom0010_010.png
+11	Bottom Appear_fleur_bottom0011_011.png
+12	Bottom Appear_fleur_bottom0012_012.png
+13	Bottom Appear_fleur_bottom0013_013.png
+14	Bottom Appear_fleur_bottom0014_014.png
+15	Bottom Appear_fleur_bottom0015_015.png
+16	Bottom Appear_fleur_bottom0016_016.png
+17	Bottom Appear_fleur_bottom0017_017.png
+18	Bottom Appear_fleur_bottom0018_018.png
+19	Bottom Appear_fleur_bottom0019_019.png
+20	Bottom Appear_fleur_bottom0020_020.png
+21	Bottom Appear_fleur_bottom0021_021.png
