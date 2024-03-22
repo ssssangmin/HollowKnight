@@ -1,0 +1,19 @@
+version: 2
+type: animation
+name: Pointer Down
+consistent_sprite_size: true
+enable_borders: false
+use_sprite_name: false
+sprites: 12
+0	Pointer Down_000.png
+1	Pointer Down_001.png
+2	Pointer Down_002.png
+3	Pointer Down_003.png
+4	Pointer Down_004.png
+5	Pointer Down_005.png
+6	Pointer Down_006.png
+7	Pointer Down_007.png
+8	Pointer Down_008.png
+9	Pointer Down_009.png
+10	Pointer Down_010.png
+11	Pointer Down_011.png

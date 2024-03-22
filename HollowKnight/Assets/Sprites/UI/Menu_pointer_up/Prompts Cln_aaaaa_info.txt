@@ -1,0 +1,18 @@
+version: 2
+type: animation
+name: Pointer Up
+consistent_sprite_size: true
+enable_borders: false
+use_sprite_name: false
+sprites: 11
+0	Pointer Up_000.png
+1	Pointer Up_001.png
+2	Pointer Up_002.png
+3	Pointer Up_003.png
+4	Pointer Up_004.png
+5	Pointer Up_005.png
+6	Pointer Up_006.png
+7	Pointer Up_007.png
+8	Pointer Up_008.png
+9	Pointer Up_009.png
+10	Pointer Up_010.png
