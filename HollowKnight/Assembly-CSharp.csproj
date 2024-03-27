@@ -60,10 +60,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\Option\GameOption.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\UI\UIMousePointer.cs" />
     <Compile Include="Assets\Scripts\Input\UserInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\UI\UIFader.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
@@ -103,11 +106,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
-    <Compile Include="Assets\Scripts\UI\UIMousePointer.cs" />
     <Compile Include="Assets\Scripts\Option\Quit.cs" />
-    <Compile Include="Assets\Scripts\Option\GameOption.cs" />
-    <Compile Include="Assets\Scripts\UI\UIFader.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\UI\UIBackToTitle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -157,6 +158,7 @@
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_recover(18)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\Attack_air_dash_recover(12)\Hornet Boss Cln_aaaaa_info.txt" />
+    <None Include="Assets\Sprites\UI\Bottom_appear_option\Area Title Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Fly\DeathAir\Fly_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Zombie Basic 1\AttackCooldown\Zombie Basic 1_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Player\PlayerEffects\SlashEffects\UpSlash\Knight_aaaaa_info.txt" />

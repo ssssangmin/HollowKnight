@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class UIMousePointer : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    public Component[] anims;
+    private Component[] anims;
 
     private void Start()
     {
@@ -22,7 +22,6 @@ public class UIMousePointer : MonoBehaviour, IPointerEnterHandler, IPointerExitH
             anim.enabled = true;
             anim.Play("Menu_pointer_up");
         }
-
     }
 
     public void OnPointerExit(PointerEventData eventData)
