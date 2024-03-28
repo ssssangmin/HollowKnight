@@ -7,7 +7,6 @@ public class UIFader : MonoBehaviour
     [SerializeField] Canvas title;
     [SerializeField] Canvas option;
 
-
     private CanvasGroup canvGroup;
     private CanvasGroup optGroup;
     private float duration = 0.4f;
@@ -20,7 +19,19 @@ public class UIFader : MonoBehaviour
         optGroup = option.GetComponent<CanvasGroup>();
     }
 
-    public void Fade()
+    public void FadeOut()
+    {
+        TitleFade();
+        Invoke("OptionFade", 1.0f);
+    }
+
+    public void FadeIn()
+    {
+        OptionFade();
+        Invoke("TitleFade", 1.0f);
+    }
+
+    public void TitleFade()
     {
         StartCoroutine(DoFade(canvGroup, canvGroup.alpha, mfaded ? 1 : 0 ));
 
@@ -28,8 +39,6 @@ public class UIFader : MonoBehaviour
 
         // 다시 못 누르게 막기. 이후 옵션에서 뒤로 버튼 누르면 다시 돌아옴.
         canvGroup.blocksRaycasts = !canvGroup.blocksRaycasts;
-
-        Invoke("OptionFade", 1.0f);
     }
 
     public IEnumerator DoFade(CanvasGroup canvGroup, float start, float end)
