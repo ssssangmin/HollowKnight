@@ -10,8 +10,6 @@ public class UIFader : MonoBehaviour
     private CanvasGroup canvGroup;
     private CanvasGroup optGroup;
     private float duration = 0.4f;
-    private bool mfaded = false;
-    private bool ofaded = true;
 
     private void Start()
     {
@@ -33,9 +31,7 @@ public class UIFader : MonoBehaviour
 
     public void TitleFade()
     {
-        StartCoroutine(DoFade(canvGroup, canvGroup.alpha, mfaded ? 1 : 0 ));
-
-        mfaded = !mfaded;
+        StartCoroutine(DoFade(canvGroup, canvGroup.alpha, canvGroup.blocksRaycasts ? 0 : 1 ));
 
         // 다시 못 누르게 막기. 이후 옵션에서 뒤로 버튼 누르면 다시 돌아옴.
         canvGroup.blocksRaycasts = !canvGroup.blocksRaycasts;
@@ -56,9 +52,7 @@ public class UIFader : MonoBehaviour
 
     private void OptionFade()
     {
-        StartCoroutine(OptFade(optGroup, optGroup.alpha, ofaded ? 1 : 0));
-
-        ofaded = !ofaded;
+        StartCoroutine(OptFade(optGroup, optGroup.alpha, optGroup.blocksRaycasts ? 0 : 1));
 
         optGroup.blocksRaycasts = !optGroup.blocksRaycasts;
     }
