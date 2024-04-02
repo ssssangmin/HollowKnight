@@ -257,6 +257,7 @@
     <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\Scripts\UI\UIHealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -331,12 +332,10 @@
     <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
-    <None Include="Assets\Sprites\UI\HUD_frame\HUD Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\stun_air(12)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\throw_recover(18)\Hornet Boss Cln_aaaaa_info.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\Attack_air_dash_recover(12)\Hornet Boss Cln_aaaaa_info.txt" />
-    <None Include="Assets\Sprites\UI\Bottom_appear_option\Area Title Cln_aaaaa_info.txt" />
     <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Masked 1.shader" />
     <None Include="Assets\Sprites\Enemy\Fly\DeathAir\Fly_aaaaa_info.txt" />
@@ -360,8 +359,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-    <None Include="Assets\Sprites\UI\Health_refill\HUD Cln_aaaaa_info.txt" />
-    <None Include="Assets\Sprites\UI\Fill_Gauge\HUD Cln_aaaaa_info.txt" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Sprites\Enemy\Boss\Hornet\sphere_ball_on(20)\Hornet Boss Cln_aaaaa_info.txt" />
