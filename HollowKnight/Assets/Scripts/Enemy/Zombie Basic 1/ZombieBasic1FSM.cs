@@ -25,8 +25,6 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
     private Animator anim;
     private Rigidbody2D rb;
 
-    private float delayTime;
-
     private Transform player;
 
     [SerializeField] private float playerDistance = 5.0f;
@@ -35,8 +33,6 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private Vector2 movementDirection = Vector2.left;
 
-    private float attackTimer = 0f;
-
     private Vector2 startAttackPos;
     private Vector2 endAttackPos;
 
@@ -44,8 +40,6 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     private void Start()
     {
-        delayTime = 0;
-
         e_State = State.Idle;
 
         currentHealth = maxHealth;

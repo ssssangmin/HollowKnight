@@ -110,6 +110,7 @@
     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyReference.cs" />
     <Compile Include="Assets\Scripts\Input\UserInput.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\UI\UIHealthBar.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
     <Compile Include="Assets\Scripts\UI\UIFader.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
@@ -257,7 +258,7 @@
     <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
-    <Compile Include="Assets\Scripts\UI\UIHealthBar.cs" />
+    <Compile Include="Assets\Scripts\UI\FollowCam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

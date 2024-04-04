@@ -11,8 +11,14 @@ public class UserInput : MonoBehaviour
     [HideInInspector] public Controls controls;
     [HideInInspector] public Vector2 moveInput;
 
+    // public Rigidbody2D pRb;
+
     private void Awake()
     {
+        Time.timeScale = 0.5f;
+        // pRb = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        // pRb.gravityScale = 3.0f;
+
         if (instance == null)
         {
             instance = this;
