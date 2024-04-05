@@ -129,6 +129,7 @@ public class PlayerAttack : MonoBehaviour
                 {
                     // µ¥¹ÌÁö
                     idmg.Damage(damageAmount);
+                    ShouldBeDamaging = false;
                 }
             }
             

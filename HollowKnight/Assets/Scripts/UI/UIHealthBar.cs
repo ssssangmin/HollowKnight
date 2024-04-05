@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIHealthBar : MonoBehaviour
 {
     [SerializeField] private Component[] anims;
+    private Animator animator;
 
     private void Awake()
     {
@@ -15,7 +16,12 @@ public class UIHealthBar : MonoBehaviour
     private void Start()
     {
         foreach (Animator anim in anims)
-            anim.Play("Health_Appear");
+        {
+            for (int i = 0; i < anims.Length; i++)
+            {
+                anim.Play("Health_Appear");
+            }
+        }
     }
 
     private void HealthAppear()
