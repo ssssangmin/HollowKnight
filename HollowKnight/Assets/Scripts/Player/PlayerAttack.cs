@@ -88,7 +88,15 @@ public class PlayerAttack : MonoBehaviour
             }
         }
 
-        attackTimer += Time.deltaTime;
+
+        if (attackTimer >= 1.0f)
+        {
+            attackTimer = attackTimer;
+        }
+        else
+        {
+            attackTimer += Time.deltaTime;
+        }
     }
 
     /*

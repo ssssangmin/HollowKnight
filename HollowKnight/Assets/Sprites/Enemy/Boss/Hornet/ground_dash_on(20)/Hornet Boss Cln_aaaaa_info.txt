@@ -1,9 +1,0 @@
-version: 2
-type: animation
-name: G Dash
-consistent_sprite_size: false
-enable_borders: false
-use_sprite_name: true
-sprites: 2
-0	G Dash_hornet_dash0007_000.png
-1	G Dash_hornet_dash0008_001.png
