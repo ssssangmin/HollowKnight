@@ -113,6 +113,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UICircle.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteCollection.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Crawl\CrawlFSM.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
@@ -259,7 +260,6 @@
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyBinding.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
-    <Compile Include="Assets\Scripts\Enemy\Crawl\CrawlFSM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

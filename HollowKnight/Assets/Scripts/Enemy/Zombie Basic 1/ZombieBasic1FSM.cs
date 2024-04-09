@@ -199,7 +199,7 @@ public class ZombieBasic1FSM : MonoBehaviour, IDamageable
 
     public void Stiffness()
     {
-        rb.velocity = Vector2.zero;
+        rb.velocity = Vector3.zero;
         anim.SetTrigger("Attack");
         e_State = State.Attack;
     }
